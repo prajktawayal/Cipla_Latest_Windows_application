@@ -1,0 +1,1170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Castrol" targetNamespace="http://tempuri.org/Castrol.xsd" xmlns:mstns="http://tempuri.org/Castrol.xsd" xmlns="http://tempuri.org/Castrol.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="9" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ANFDConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ANFDConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.ANFDConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="API4_ALL_SOLVENTConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="API4_ALL_SOLVENTConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.API4_ALL_SOLVENTConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="FTAEConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FTAEConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.FTAEConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="API_IV_RCVD370ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="API_IV_RCVD370ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.API_IV_RCVD370ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ALL_JTM_MM1ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALL_JTM_MM1ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.ALL_JTM_MM1ConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="CrystilliserConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="CrystilliserConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.CrystilliserConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="RCVDConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="RCVDConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.RCVDConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ALL_JTM_MM1ConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ALL_JTM_MM1ConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.ALL_JTM_MM1ConnectionString1" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="FPOGB192_DATABASEConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="FPOGB192_DATABASEConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.FPOGB192_DATABASEConnectionString" Provider="System.Data.SqlClient" />
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="ANFDConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="ANFDConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Cipla_Bangalore_API4_091.Properties.Settings.GlobalReference.Default.ANFDConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_E4_ANFD371_SOLVANTTableAdapter" GeneratorDataComponentClassName="v_E4_ANFD371_SOLVANTTableAdapter" Name="v_E4_ANFD371_SOLVANT" UserDataComponentName="v_E4_ANFD371_SOLVANTTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="API4_ALL_SOLVENTConnectionString (Settings)" DbObjectName="API4_ALL_SOLVENT.dbo.v_E4_ANFD371_SOLVANT" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        v_E4_ANFD371_SOLVANT.*
+FROM            v_E4_ANFD371_SOLVANT</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="DISPENSE_QTY" DataSetColumn="DISPENSE_QTY" />
+              <Mapping SourceColumn="SET_QTY" DataSetColumn="SET_QTY" />
+              <Mapping SourceColumn="SolventName" DataSetColumn="SolventName" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="UDV_AllEventsTableAdapter" GeneratorDataComponentClassName="UDV_AllEventsTableAdapter" Name="UDV_AllEvents" UserDataComponentName="UDV_AllEventsTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FTAEConnectionString (Settings)" DbObjectName="FTAE.dbo.UDV_AllEvents" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [UDV_AllEvents] ([SourceName], [EventTimeStamp], [Severity], [Priority], [Message], [AlarmClass], [Active], [Acked], [Tag1Value], [Tag2Value], [Tag3Value], [Tag4Value], [GroupPath], [InputValue], [ChangeMask]) VALUES (@SourceName, @EventTimeStamp, @Severity, @Priority, @Message, @AlarmClass, @Active, @Acked, @Tag1Value, @Tag2Value, @Tag3Value, @Tag4Value, @GroupPath, @InputValue, @ChangeMask)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@SourceName" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="SourceName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime2" Direction="Input" ParameterName="@EventTimeStamp" Precision="0" ProviderType="DateTime2" Scale="0" Size="0" SourceColumn="EventTimeStamp" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Severity" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Severity" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Priority" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Priority" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Message" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Message" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@AlarmClass" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="AlarmClass" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Active" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="Active" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Boolean" Direction="Input" ParameterName="@Acked" Precision="0" ProviderType="Bit" Scale="0" Size="0" SourceColumn="Acked" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Tag1Value" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tag1Value" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Tag2Value" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tag2Value" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Tag3Value" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tag3Value" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Tag4Value" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Tag4Value" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@GroupPath" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="GroupPath" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@InputValue" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="InputValue" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@ChangeMask" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="ChangeMask" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        UDV_AllEvents.*
+FROM            UDV_AllEvents</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SourceName" DataSetColumn="SourceName" />
+              <Mapping SourceColumn="EventTimeStamp" DataSetColumn="EventTimeStamp" />
+              <Mapping SourceColumn="Severity" DataSetColumn="Severity" />
+              <Mapping SourceColumn="Priority" DataSetColumn="Priority" />
+              <Mapping SourceColumn="Message" DataSetColumn="Message" />
+              <Mapping SourceColumn="AlarmClass" DataSetColumn="AlarmClass" />
+              <Mapping SourceColumn="Active" DataSetColumn="Active" />
+              <Mapping SourceColumn="Acked" DataSetColumn="Acked" />
+              <Mapping SourceColumn="Tag1Value" DataSetColumn="Tag1Value" />
+              <Mapping SourceColumn="Tag2Value" DataSetColumn="Tag2Value" />
+              <Mapping SourceColumn="Tag3Value" DataSetColumn="Tag3Value" />
+              <Mapping SourceColumn="Tag4Value" DataSetColumn="Tag4Value" />
+              <Mapping SourceColumn="GroupPath" DataSetColumn="GroupPath" />
+              <Mapping SourceColumn="InputValue" DataSetColumn="InputValue" />
+              <Mapping SourceColumn="ChangeMask" DataSetColumn="ChangeMask" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_API4_RCVD370TableAdapter" GeneratorDataComponentClassName="v_API4_RCVD370TableAdapter" Name="v_API4_RCVD370" UserDataComponentName="v_API4_RCVD370TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="API_IV_RCVD370ConnectionString (Settings)" DbObjectName="API_IV_RCVD370.dbo.v_API4_RCVD370" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [v_API4_RCVD370] ([DateAndTime], [tempinlet], [RPMAct], [tempoutlet], [MassTempAct], [TempLowerLim], [TempUpperLim], [VacuumPressureAct], [VacuumPressureSet], [ProductName], [EventMessage], [EquipmentNo], [BatchNo], [StepNumber]) VALUES (@DateAndTime, @tempinlet, @RPMAct, @tempoutlet, @MassTempAct, @TempLowerLim, @TempUpperLim, @VacuumPressureAct, @VacuumPressureSet, @ProductName, @EventMessage, @EquipmentNo, @BatchNo, @StepNumber)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime2" Direction="Input" ParameterName="@DateAndTime" Precision="0" ProviderType="DateTime2" Scale="0" Size="0" SourceColumn="DateAndTime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@tempinlet" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="tempinlet" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@RPMAct" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="RPMAct" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@tempoutlet" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="tempoutlet" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@MassTempAct" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="MassTempAct" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@TempLowerLim" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="TempLowerLim" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@TempUpperLim" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="TempUpperLim" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@VacuumPressureAct" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="VacuumPressureAct" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@VacuumPressureSet" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="VacuumPressureSet" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ProductName" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ProductName" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@EventMessage" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="EventMessage" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@EquipmentNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="EquipmentNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BatchNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BatchNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@StepNumber" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="StepNumber" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DateAndTime, tempinlet, RPMAct, tempoutlet, MassTempAct, TempLowerLim, TempUpperLim, VacuumPressureAct, VacuumPressureSet, ProductName, EventMessage, EquipmentNo, BatchNo, StepNumber FROM v_API4_RCVD370</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="tempinlet" DataSetColumn="tempinlet" />
+              <Mapping SourceColumn="RPMAct" DataSetColumn="RPMAct" />
+              <Mapping SourceColumn="tempoutlet" DataSetColumn="tempoutlet" />
+              <Mapping SourceColumn="MassTempAct" DataSetColumn="MassTempAct" />
+              <Mapping SourceColumn="TempLowerLim" DataSetColumn="TempLowerLim" />
+              <Mapping SourceColumn="TempUpperLim" DataSetColumn="TempUpperLim" />
+              <Mapping SourceColumn="VacuumPressureAct" DataSetColumn="VacuumPressureAct" />
+              <Mapping SourceColumn="VacuumPressureSet" DataSetColumn="VacuumPressureSet" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EventMessage" DataSetColumn="EventMessage" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+              <Mapping SourceColumn="StepNumber" DataSetColumn="StepNumber" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_API4_JTM86TableAdapter" GeneratorDataComponentClassName="v_API4_JTM86TableAdapter" Name="v_API4_JTM86" UserDataComponentName="v_API4_JTM86TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALL_JTM_MM1ConnectionString (Settings)" DbObjectName="ALL_JTM_MM1.dbo.v_API4_JTM86" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [v_API4_JTM86] ([DateAndTime], [JTM86_AG_ACT], [JTM86_GRI_PRESSURE], [JTM86_VEN_PRESSURE], [JTM86_Main_PRESSURE], [BatchNo], [ProductNo], [SECTIONNo], [EQUIPMENTNAME]) VALUES (@DateAndTime, @JTM86_AG_ACT, @JTM86_GRI_PRESSURE, @JTM86_VEN_PRESSURE, @JTM86_Main_PRESSURE, @BatchNo, @ProductNo, @SECTIONNo, @EQUIPMENTNAME)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DateAndTime" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DateAndTime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@JTM86_AG_ACT" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="JTM86_AG_ACT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@JTM86_GRI_PRESSURE" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="JTM86_GRI_PRESSURE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@JTM86_VEN_PRESSURE" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="JTM86_VEN_PRESSURE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@JTM86_Main_PRESSURE" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="JTM86_Main_PRESSURE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BatchNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BatchNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ProductNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ProductNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@SECTIONNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="SECTIONNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@EQUIPMENTNAME" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="EQUIPMENTNAME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        v_API4_JTM86.*
+FROM            v_API4_JTM86</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="JTM86_AG_ACT" DataSetColumn="JTM86_AG_ACT" />
+              <Mapping SourceColumn="JTM86_GRI_PRESSURE" DataSetColumn="JTM86_GRI_PRESSURE" />
+              <Mapping SourceColumn="JTM86_VEN_PRESSURE" DataSetColumn="JTM86_VEN_PRESSURE" />
+              <Mapping SourceColumn="JTM86_Main_PRESSURE" DataSetColumn="JTM86_Main_PRESSURE" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+              <Mapping SourceColumn="ProductNo" DataSetColumn="ProductNo" />
+              <Mapping SourceColumn="SECTIONNo" DataSetColumn="SECTIONNo" />
+              <Mapping SourceColumn="EQUIPMENTNAME" DataSetColumn="EQUIPMENTNAME" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_API4_JTM87TableAdapter" GeneratorDataComponentClassName="v_API4_JTM87TableAdapter" Name="v_API4_JTM87" UserDataComponentName="v_API4_JTM87TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALL_JTM_MM1ConnectionString (Settings)" DbObjectName="ALL_JTM_MM1.dbo.v_API4_JTM87" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [v_API4_JTM87] ([DateAndTime], [JTM87_AG_ACT], [JTM87_GRI_PRESSURE], [JTM87_VEN_PRESSURE], [JTM87_Main_PRESSURE], [BatchNo], [ProductNo], [SECTIONNo], [EQUIPMENTNAME]) VALUES (@DateAndTime, @JTM87_AG_ACT, @JTM87_GRI_PRESSURE, @JTM87_VEN_PRESSURE, @JTM87_Main_PRESSURE, @BatchNo, @ProductNo, @SECTIONNo, @EQUIPMENTNAME)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DateAndTime" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DateAndTime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@JTM87_AG_ACT" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="JTM87_AG_ACT" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@JTM87_GRI_PRESSURE" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="JTM87_GRI_PRESSURE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@JTM87_VEN_PRESSURE" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="JTM87_VEN_PRESSURE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@JTM87_Main_PRESSURE" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="JTM87_Main_PRESSURE" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BatchNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BatchNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ProductNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ProductNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@SECTIONNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="SECTIONNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@EQUIPMENTNAME" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="EQUIPMENTNAME" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        v_API4_JTM87.*
+FROM            v_API4_JTM87</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="JTM87_AG_ACT" DataSetColumn="JTM87_AG_ACT" />
+              <Mapping SourceColumn="JTM87_GRI_PRESSURE" DataSetColumn="JTM87_GRI_PRESSURE" />
+              <Mapping SourceColumn="JTM87_VEN_PRESSURE" DataSetColumn="JTM87_VEN_PRESSURE" />
+              <Mapping SourceColumn="JTM87_Main_PRESSURE" DataSetColumn="JTM87_Main_PRESSURE" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+              <Mapping SourceColumn="ProductNo" DataSetColumn="ProductNo" />
+              <Mapping SourceColumn="SECTIONNo" DataSetColumn="SECTIONNo" />
+              <Mapping SourceColumn="EQUIPMENTNAME" DataSetColumn="EQUIPMENTNAME" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_API4_GLR23TableAdapter" GeneratorDataComponentClassName="v_API4_GLR23TableAdapter" Name="v_API4_GLR23" UserDataComponentName="v_API4_GLR23TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CrystilliserConnectionString (Settings)" DbObjectName="Crystilliser.dbo.v_API4_GLR23" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        DateAndTime, RPMAct, RPMSet, VacuumPressureAct, VacuumPressureSet, Temp_Act, TempLowerLim, Temp_Set, TempUpperLim, ProductName, EventMessage, EquipmentNo, BatchNo
+FROM            v_API4_GLR23</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="RPMAct" DataSetColumn="RPMAct" />
+              <Mapping SourceColumn="RPMSet" DataSetColumn="RPMSet" />
+              <Mapping SourceColumn="VacuumPressureAct" DataSetColumn="VacuumPressureAct" />
+              <Mapping SourceColumn="VacuumPressureSet" DataSetColumn="VacuumPressureSet" />
+              <Mapping SourceColumn="Temp_Act" DataSetColumn="Temp_Act" />
+              <Mapping SourceColumn="TempLowerLim" DataSetColumn="TempLowerLim" />
+              <Mapping SourceColumn="Temp_Set" DataSetColumn="Temp_Set" />
+              <Mapping SourceColumn="TempUpperLim" DataSetColumn="TempUpperLim" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EventMessage" DataSetColumn="EventMessage" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_API4_GLR36TableAdapter" GeneratorDataComponentClassName="v_API4_GLR36TableAdapter" Name="v_API4_GLR36" UserDataComponentName="v_API4_GLR36TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CrystilliserConnectionString (Settings)" DbObjectName="Crystilliser.dbo.v_API4_GLR36" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        v_API4_GLR36.*
+FROM            v_API4_GLR36</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="AgitatorSpeedAct" DataSetColumn="AgitatorSpeedAct" />
+              <Mapping SourceColumn="AgitatorSpeedSet" DataSetColumn="AgitatorSpeedSet" />
+              <Mapping SourceColumn="GLR36_BATCH_START" DataSetColumn="GLR36_BATCH_START" />
+              <Mapping SourceColumn="pressure_Act" DataSetColumn="pressure_Act" />
+              <Mapping SourceColumn="pressure_SP" DataSetColumn="pressure_SP" />
+              <Mapping SourceColumn="Temp_Act" DataSetColumn="Temp_Act" />
+              <Mapping SourceColumn="TempLowerLim" DataSetColumn="TempLowerLim" />
+              <Mapping SourceColumn="Temp_SP" DataSetColumn="Temp_SP" />
+              <Mapping SourceColumn="TempUpperLim" DataSetColumn="TempUpperLim" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EventMessage" DataSetColumn="EventMessage" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+              <Mapping SourceColumn="GLR36_Operator_Name" DataSetColumn="GLR36_Operator_Name" />
+              <Mapping SourceColumn="GLR36_Recipe_Name" DataSetColumn="GLR36_Recipe_Name" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_API4_SSR24TableAdapter" GeneratorDataComponentClassName="v_API4_SSR24TableAdapter" Name="v_API4_SSR24" UserDataComponentName="v_API4_SSR24TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CrystilliserConnectionString (Settings)" DbObjectName="Crystilliser.dbo.v_API4_SSR24" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        DateAndTime, RPMAct, RPMSet, VacuumPressureAct, VacuumPressureSet, Temp_Act, TempLowerLim, Temp_Set, TempUpperLim, ProductName, EventMessage, EquipmentNo, BatchNo
+FROM            v_API4_SSR24</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="RPMAct" DataSetColumn="RPMAct" />
+              <Mapping SourceColumn="RPMSet" DataSetColumn="RPMSet" />
+              <Mapping SourceColumn="VacuumPressureAct" DataSetColumn="VacuumPressureAct" />
+              <Mapping SourceColumn="VacuumPressureSet" DataSetColumn="VacuumPressureSet" />
+              <Mapping SourceColumn="Temp_Act" DataSetColumn="Temp_Act" />
+              <Mapping SourceColumn="TempLowerLim" DataSetColumn="TempLowerLim" />
+              <Mapping SourceColumn="Temp_Set" DataSetColumn="Temp_Set" />
+              <Mapping SourceColumn="TempUpperLim" DataSetColumn="TempUpperLim" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EventMessage" DataSetColumn="EventMessage" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_API4_RCVD350TableAdapter" GeneratorDataComponentClassName="v_API4_RCVD350TableAdapter" Name="v_API4_RCVD350" UserDataComponentName="v_API4_RCVD350TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="RCVDConnectionString (Settings)" DbObjectName="RCVD.dbo.v_API4_RCVD350" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        DateAndTime, RPMAct, RPMSET, MassTempAct, VacuumPressureAct, VacuumPressureSet, tempinlet, tempoutlet, TempLowerLim, TempUpperLim, ProductName, EventMessage, EquipmentNo, BatchNo
+FROM            v_API4_RCVD350</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="RPMAct" DataSetColumn="RPMAct" />
+              <Mapping SourceColumn="RPMSET" DataSetColumn="RPMSET" />
+              <Mapping SourceColumn="MassTempAct" DataSetColumn="MassTempAct" />
+              <Mapping SourceColumn="VacuumPressureAct" DataSetColumn="VacuumPressureAct" />
+              <Mapping SourceColumn="VacuumPressureSet" DataSetColumn="VacuumPressureSet" />
+              <Mapping SourceColumn="tempinlet" DataSetColumn="tempinlet" />
+              <Mapping SourceColumn="tempoutlet" DataSetColumn="tempoutlet" />
+              <Mapping SourceColumn="TempLowerLim" DataSetColumn="TempLowerLim" />
+              <Mapping SourceColumn="TempUpperLim" DataSetColumn="TempUpperLim" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EventMessage" DataSetColumn="EventMessage" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_API4_SSR07TableAdapter" GeneratorDataComponentClassName="v_API4_SSR07TableAdapter" Name="v_API4_SSR07" UserDataComponentName="v_API4_SSR07TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="CrystilliserConnectionString (Settings)" DbObjectName="Crystilliser.dbo.v_API4_SSR24" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT        DateAndTime, RPMAct, RPMSet, VacuumPressureAct, VacuumPressureSet, Temp_Act, TempLowerLim, Temp_Set, TempUpperLim, ProductName, EventMessage, EquipmentNo, BatchNo
+FROM            v_API4_SSR24</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="RPMAct" DataSetColumn="RPMAct" />
+              <Mapping SourceColumn="RPMSet" DataSetColumn="RPMSet" />
+              <Mapping SourceColumn="VacuumPressureAct" DataSetColumn="VacuumPressureAct" />
+              <Mapping SourceColumn="VacuumPressureSet" DataSetColumn="VacuumPressureSet" />
+              <Mapping SourceColumn="Temp_Act" DataSetColumn="Temp_Act" />
+              <Mapping SourceColumn="TempLowerLim" DataSetColumn="TempLowerLim" />
+              <Mapping SourceColumn="Temp_Set" DataSetColumn="Temp_Set" />
+              <Mapping SourceColumn="TempUpperLim" DataSetColumn="TempUpperLim" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EventMessage" DataSetColumn="EventMessage" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_MM_70TableAdapter" GeneratorDataComponentClassName="v_MM_70TableAdapter" Name="v_MM_70" UserDataComponentName="v_MM_70TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ALL_JTM_MM1ConnectionString1 (Settings)" DbObjectName="ALL_JTM_MM1.dbo.v_MM_70" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [v_MM_70] ([DateAndTime], [RPMAct_70], [RPMSET_70], [BatchNo]) VALUES (@DateAndTime, @RPMAct_70, @RPMSET_70, @BatchNo)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@DateAndTime" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="DateAndTime" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@RPMAct_70" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="RPMAct_70" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Double" Direction="Input" ParameterName="@RPMSET_70" Precision="0" ProviderType="Float" Scale="0" Size="0" SourceColumn="RPMSET_70" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@BatchNo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="BatchNo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        v_MM_70.*
+FROM            v_MM_70</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="RPMAct_70" DataSetColumn="RPMAct_70" />
+              <Mapping SourceColumn="RPMSET_70" DataSetColumn="RPMSET_70" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_FPOGB192_DATABASETableAdapter" GeneratorDataComponentClassName="v_FPOGB192_DATABASETableAdapter" Name="v_FPOGB192_DATABASE" UserDataComponentName="v_FPOGB192_DATABASETableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="FPOGB192_DATABASEConnectionString (Settings)" DbObjectName="FPOGB192_DATABASE.dbo.v_FPOGB192_DATABASE" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        v_FPOGB192_DATABASE.*
+FROM            v_FPOGB192_DATABASE</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="RPMACT" DataSetColumn="RPMACT" />
+              <Mapping SourceColumn="RPM_HIGH_SET" DataSetColumn="RPM_HIGH_SET" />
+              <Mapping SourceColumn="RPM_LOW_SET" DataSetColumn="RPM_LOW_SET" />
+              <Mapping SourceColumn="RPM_SET" DataSetColumn="RPM_SET" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="v_API4_ANFD371TableAdapter" GeneratorDataComponentClassName="v_API4_ANFD371TableAdapter" Name="v_API4_ANFD371" UserDataComponentName="v_API4_ANFD371TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="ANFDConnectionString1 (Settings)" DbObjectName="ANFD.dbo.v_API4_ANFD371" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT DateAndTime, RPMAct, RPMSET, ANFD_371_BATCH_START, MassTempAct, VacuumPressureAct, VacuumPressureSet, tempinlet, tempoutlet, TempLowerLim, TempUpperLim, BED_TEMP, ProductName, EventMessage, EquipmentNo, BatchNo FROM v_API4_ANFD371</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="DateAndTime" DataSetColumn="DateAndTime" />
+              <Mapping SourceColumn="RPMAct" DataSetColumn="RPMAct" />
+              <Mapping SourceColumn="RPMSET" DataSetColumn="RPMSET" />
+              <Mapping SourceColumn="ANFD_371_BATCH_START" DataSetColumn="ANFD_371_BATCH_START" />
+              <Mapping SourceColumn="MassTempAct" DataSetColumn="MassTempAct" />
+              <Mapping SourceColumn="VacuumPressureAct" DataSetColumn="VacuumPressureAct" />
+              <Mapping SourceColumn="VacuumPressureSet" DataSetColumn="VacuumPressureSet" />
+              <Mapping SourceColumn="tempinlet" DataSetColumn="tempinlet" />
+              <Mapping SourceColumn="tempoutlet" DataSetColumn="tempoutlet" />
+              <Mapping SourceColumn="TempLowerLim" DataSetColumn="TempLowerLim" />
+              <Mapping SourceColumn="TempUpperLim" DataSetColumn="TempUpperLim" />
+              <Mapping SourceColumn="BED_TEMP" DataSetColumn="BED_TEMP" />
+              <Mapping SourceColumn="ProductName" DataSetColumn="ProductName" />
+              <Mapping SourceColumn="EventMessage" DataSetColumn="EventMessage" />
+              <Mapping SourceColumn="EquipmentNo" DataSetColumn="EquipmentNo" />
+              <Mapping SourceColumn="BatchNo" DataSetColumn="BatchNo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Castrol" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Castrol" msprop:Generator_UserDSName="Castrol">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="v_E4_ANFD371_SOLVANT" msprop:Generator_TableClassName="v_E4_ANFD371_SOLVANTDataTable" msprop:Generator_TableVarName="tablev_E4_ANFD371_SOLVANT" msprop:Generator_TablePropName="v_E4_ANFD371_SOLVANT" msprop:Generator_RowDeletingName="v_E4_ANFD371_SOLVANTRowDeleting" msprop:Generator_RowChangingName="v_E4_ANFD371_SOLVANTRowChanging" msprop:Generator_RowEvHandlerName="v_E4_ANFD371_SOLVANTRowChangeEventHandler" msprop:Generator_RowDeletedName="v_E4_ANFD371_SOLVANTRowDeleted" msprop:Generator_UserTableName="v_E4_ANFD371_SOLVANT" msprop:Generator_RowChangedName="v_E4_ANFD371_SOLVANTRowChanged" msprop:Generator_RowEvArgName="v_E4_ANFD371_SOLVANTRowChangeEvent" msprop:Generator_RowClassName="v_E4_ANFD371_SOLVANTRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="DISPENSE_QTY" msprop:Generator_ColumnVarNameInTable="columnDISPENSE_QTY" msprop:Generator_ColumnPropNameInRow="DISPENSE_QTY" msprop:Generator_ColumnPropNameInTable="DISPENSE_QTYColumn" msprop:Generator_UserColumnName="DISPENSE_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="SET_QTY" msprop:Generator_ColumnVarNameInTable="columnSET_QTY" msprop:Generator_ColumnPropNameInRow="SET_QTY" msprop:Generator_ColumnPropNameInTable="SET_QTYColumn" msprop:Generator_UserColumnName="SET_QTY" type="xs:double" minOccurs="0" />
+              <xs:element name="SolventName" msprop:Generator_ColumnVarNameInTable="columnSolventName" msprop:Generator_ColumnPropNameInRow="SolventName" msprop:Generator_ColumnPropNameInTable="SolventNameColumn" msprop:Generator_UserColumnName="SolventName" type="xs:double" minOccurs="0" />
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MaxSolventDateTime" msprop:Generator_ColumnVarNameInTable="columnMaxSolventDateTime" msprop:Generator_ColumnPropNameInRow="MaxSolventDateTime" msprop:Generator_ColumnPropNameInTable="MaxSolventDateTimeColumn" msprop:Generator_UserColumnName="MaxSolventDateTime" type="xs:string" minOccurs="0" />
+              <xs:element name="MinSolventDateTime" msprop:Generator_ColumnVarNameInTable="columnMinSolventDateTime" msprop:Generator_ColumnPropNameInRow="MinSolventDateTime" msprop:Generator_ColumnPropNameInTable="MinSolventDateTimeColumn" msprop:Generator_UserColumnName="MinSolventDateTime" type="xs:string" minOccurs="0" />
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="SolventName1" msprop:Generator_ColumnVarNameInTable="columnSolventName1" msprop:Generator_ColumnPropNameInRow="SolventName1" msprop:Generator_ColumnPropNameInTable="SolventName1Column" msprop:Generator_UserColumnName="SolventName1" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalMethanol" msprop:Generator_ColumnVarNameInTable="columnTotalMethanol" msprop:Generator_ColumnPropNameInRow="TotalMethanol" msprop:Generator_ColumnPropNameInTable="TotalMethanolColumn" msprop:Generator_UserColumnName="TotalMethanol" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalToulene" msprop:Generator_ColumnVarNameInTable="columnTotalToulene" msprop:Generator_ColumnPropNameInRow="TotalToulene" msprop:Generator_ColumnPropNameInTable="TotalTouleneColumn" msprop:Generator_UserColumnName="TotalToulene" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalAcetone" msprop:Generator_ColumnVarNameInTable="columnTotalAcetone" msprop:Generator_ColumnPropNameInRow="TotalAcetone" msprop:Generator_ColumnPropNameInTable="TotalAcetoneColumn" msprop:Generator_UserColumnName="TotalAcetone" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalMDC" msprop:Generator_ColumnVarNameInTable="columnTotalMDC" msprop:Generator_ColumnPropNameInRow="TotalMDC" msprop:Generator_ColumnPropNameInTable="TotalMDCColumn" msprop:Generator_UserColumnName="TotalMDC" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalEthylAcetate" msprop:Generator_ColumnVarNameInTable="columnTotalEthylAcetate" msprop:Generator_ColumnPropNameInRow="TotalEthylAcetate" msprop:Generator_ColumnPropNameInTable="TotalEthylAcetateColumn" msprop:Generator_UserColumnName="TotalEthylAcetate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UDV_AllEvents" msprop:Generator_TableClassName="UDV_AllEventsDataTable" msprop:Generator_TableVarName="tableUDV_AllEvents" msprop:Generator_RowChangedName="UDV_AllEventsRowChanged" msprop:Generator_TablePropName="UDV_AllEvents" msprop:Generator_RowDeletingName="UDV_AllEventsRowDeleting" msprop:Generator_RowChangingName="UDV_AllEventsRowChanging" msprop:Generator_RowEvHandlerName="UDV_AllEventsRowChangeEventHandler" msprop:Generator_RowDeletedName="UDV_AllEventsRowDeleted" msprop:Generator_RowClassName="UDV_AllEventsRow" msprop:Generator_UserTableName="UDV_AllEvents" msprop:Generator_RowEvArgName="UDV_AllEventsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SourceName" msprop:Generator_ColumnVarNameInTable="columnSourceName" msprop:Generator_ColumnPropNameInRow="SourceName" msprop:Generator_ColumnPropNameInTable="SourceNameColumn" msprop:Generator_UserColumnName="SourceName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventTimeStamp" msprop:Generator_ColumnVarNameInTable="columnEventTimeStamp" msprop:Generator_ColumnPropNameInRow="EventTimeStamp" msprop:Generator_ColumnPropNameInTable="EventTimeStampColumn" msprop:Generator_UserColumnName="EventTimeStamp" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Severity" msprop:Generator_ColumnVarNameInTable="columnSeverity" msprop:Generator_ColumnPropNameInRow="Severity" msprop:Generator_ColumnPropNameInTable="SeverityColumn" msprop:Generator_UserColumnName="Severity" type="xs:int" minOccurs="0" />
+              <xs:element name="Priority" msprop:Generator_ColumnVarNameInTable="columnPriority" msprop:Generator_ColumnPropNameInRow="Priority" msprop:Generator_ColumnPropNameInTable="PriorityColumn" msprop:Generator_UserColumnName="Priority" type="xs:int" minOccurs="0" />
+              <xs:element name="Message" msprop:Generator_ColumnVarNameInTable="columnMessage" msprop:Generator_ColumnPropNameInRow="Message" msprop:Generator_ColumnPropNameInTable="MessageColumn" msprop:Generator_UserColumnName="Message" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="512" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="AlarmClass" msprop:Generator_ColumnVarNameInTable="columnAlarmClass" msprop:Generator_ColumnPropNameInRow="AlarmClass" msprop:Generator_ColumnPropNameInTable="AlarmClassColumn" msprop:Generator_UserColumnName="AlarmClass" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Active" msprop:Generator_ColumnVarNameInTable="columnActive" msprop:Generator_ColumnPropNameInRow="Active" msprop:Generator_ColumnPropNameInTable="ActiveColumn" msprop:Generator_UserColumnName="Active" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Acked" msprop:Generator_ColumnVarNameInTable="columnAcked" msprop:Generator_ColumnPropNameInRow="Acked" msprop:Generator_ColumnPropNameInTable="AckedColumn" msprop:Generator_UserColumnName="Acked" type="xs:boolean" minOccurs="0" />
+              <xs:element name="Tag1Value" msprop:Generator_ColumnVarNameInTable="columnTag1Value" msprop:Generator_ColumnPropNameInRow="Tag1Value" msprop:Generator_ColumnPropNameInTable="Tag1ValueColumn" msprop:Generator_UserColumnName="Tag1Value" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tag2Value" msprop:Generator_ColumnVarNameInTable="columnTag2Value" msprop:Generator_ColumnPropNameInRow="Tag2Value" msprop:Generator_ColumnPropNameInTable="Tag2ValueColumn" msprop:Generator_UserColumnName="Tag2Value" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tag3Value" msprop:Generator_ColumnVarNameInTable="columnTag3Value" msprop:Generator_ColumnPropNameInRow="Tag3Value" msprop:Generator_ColumnPropNameInTable="Tag3ValueColumn" msprop:Generator_UserColumnName="Tag3Value" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tag4Value" msprop:Generator_ColumnVarNameInTable="columnTag4Value" msprop:Generator_ColumnPropNameInRow="Tag4Value" msprop:Generator_ColumnPropNameInTable="Tag4ValueColumn" msprop:Generator_UserColumnName="Tag4Value" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="128" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GroupPath" msprop:Generator_ColumnVarNameInTable="columnGroupPath" msprop:Generator_ColumnPropNameInRow="GroupPath" msprop:Generator_ColumnPropNameInTable="GroupPathColumn" msprop:Generator_UserColumnName="GroupPath" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="254" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="InputValue" msprop:Generator_ColumnVarNameInTable="columnInputValue" msprop:Generator_ColumnPropNameInRow="InputValue" msprop:Generator_ColumnPropNameInTable="InputValueColumn" msprop:Generator_UserColumnName="InputValue" type="xs:double" minOccurs="0" />
+              <xs:element name="ChangeMask" msprop:Generator_ColumnVarNameInTable="columnChangeMask" msprop:Generator_ColumnPropNameInRow="ChangeMask" msprop:Generator_ColumnPropNameInTable="ChangeMaskColumn" msprop:Generator_UserColumnName="ChangeMask" type="xs:int" minOccurs="0" />
+              <xs:element name="batchStartTime" msprop:Generator_ColumnVarNameInTable="columnbatchStartTime" msprop:Generator_ColumnPropNameInRow="batchStartTime" msprop:Generator_ColumnPropNameInTable="batchStartTimeColumn" msprop:Generator_UserColumnName="batchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="batchEndTime" msprop:Generator_ColumnVarNameInTable="columnbatchEndTime" msprop:Generator_ColumnPropNameInRow="batchEndTime" msprop:Generator_ColumnPropNameInTable="batchEndTimeColumn" msprop:Generator_UserColumnName="batchEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_API4_RCVD370" msprop:Generator_TableClassName="v_API4_RCVD370DataTable" msprop:Generator_TableVarName="tablev_API4_RCVD370" msprop:Generator_TablePropName="v_API4_RCVD370" msprop:Generator_RowDeletingName="v_API4_RCVD370RowDeleting" msprop:Generator_RowChangingName="v_API4_RCVD370RowChanging" msprop:Generator_RowEvHandlerName="v_API4_RCVD370RowChangeEventHandler" msprop:Generator_RowDeletedName="v_API4_RCVD370RowDeleted" msprop:Generator_UserTableName="v_API4_RCVD370" msprop:Generator_RowChangedName="v_API4_RCVD370RowChanged" msprop:Generator_RowEvArgName="v_API4_RCVD370RowChangeEvent" msprop:Generator_RowClassName="v_API4_RCVD370Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="tempinlet" msprop:Generator_ColumnVarNameInTable="columntempinlet" msprop:Generator_ColumnPropNameInRow="tempinlet" msprop:Generator_ColumnPropNameInTable="tempinletColumn" msprop:Generator_UserColumnName="tempinlet" type="xs:double" minOccurs="0" />
+              <xs:element name="RPMAct" msprop:Generator_ColumnVarNameInTable="columnRPMAct" msprop:Generator_ColumnPropNameInRow="RPMAct" msprop:Generator_ColumnPropNameInTable="RPMActColumn" msprop:Generator_UserColumnName="RPMAct" type="xs:double" minOccurs="0" />
+              <xs:element name="tempoutlet" msprop:Generator_ColumnVarNameInTable="columntempoutlet" msprop:Generator_ColumnPropNameInRow="tempoutlet" msprop:Generator_ColumnPropNameInTable="tempoutletColumn" msprop:Generator_UserColumnName="tempoutlet" type="xs:double" minOccurs="0" />
+              <xs:element name="MassTempAct" msprop:Generator_ColumnVarNameInTable="columnMassTempAct" msprop:Generator_ColumnPropNameInRow="MassTempAct" msprop:Generator_ColumnPropNameInTable="MassTempActColumn" msprop:Generator_UserColumnName="MassTempAct" type="xs:double" minOccurs="0" />
+              <xs:element name="TempLowerLim" msprop:Generator_ColumnVarNameInTable="columnTempLowerLim" msprop:Generator_ColumnPropNameInRow="TempLowerLim" msprop:Generator_ColumnPropNameInTable="TempLowerLimColumn" msprop:Generator_UserColumnName="TempLowerLim" type="xs:double" minOccurs="0" />
+              <xs:element name="TempUpperLim" msprop:Generator_ColumnVarNameInTable="columnTempUpperLim" msprop:Generator_ColumnPropNameInRow="TempUpperLim" msprop:Generator_ColumnPropNameInTable="TempUpperLimColumn" msprop:Generator_UserColumnName="TempUpperLim" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureAct" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureAct" msprop:Generator_ColumnPropNameInRow="VacuumPressureAct" msprop:Generator_ColumnPropNameInTable="VacuumPressureActColumn" msprop:Generator_UserColumnName="VacuumPressureAct" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureSet" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureSet" msprop:Generator_ColumnPropNameInRow="VacuumPressureSet" msprop:Generator_ColumnPropNameInTable="VacuumPressureSetColumn" msprop:Generator_UserColumnName="VacuumPressureSet" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventMessage" msprop:Generator_ColumnVarNameInTable="columnEventMessage" msprop:Generator_ColumnPropNameInRow="EventMessage" msprop:Generator_ColumnPropNameInTable="EventMessageColumn" msprop:Generator_UserColumnName="EventMessage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StepNumber" msprop:Generator_ColumnVarNameInTable="columnStepNumber" msprop:Generator_ColumnPropNameInRow="StepNumber" msprop:Generator_ColumnPropNameInTable="StepNumberColumn" msprop:Generator_UserColumnName="StepNumber" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="stepnum" msprop:Generator_ColumnVarNameInTable="columnstepnum" msprop:Generator_ColumnPropNameInRow="stepnum" msprop:Generator_ColumnPropNameInTable="stepnumColumn" msprop:Generator_UserColumnName="stepnum" type="xs:string" minOccurs="0" />
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_API4_JTM86" msprop:Generator_TableClassName="v_API4_JTM86DataTable" msprop:Generator_TableVarName="tablev_API4_JTM86" msprop:Generator_TablePropName="v_API4_JTM86" msprop:Generator_RowDeletingName="v_API4_JTM86RowDeleting" msprop:Generator_RowChangingName="v_API4_JTM86RowChanging" msprop:Generator_RowEvHandlerName="v_API4_JTM86RowChangeEventHandler" msprop:Generator_RowDeletedName="v_API4_JTM86RowDeleted" msprop:Generator_UserTableName="v_API4_JTM86" msprop:Generator_RowChangedName="v_API4_JTM86RowChanged" msprop:Generator_RowEvArgName="v_API4_JTM86RowChangeEvent" msprop:Generator_RowClassName="v_API4_JTM86Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JTM86_AG_ACT" msprop:Generator_ColumnVarNameInTable="columnJTM86_AG_ACT" msprop:Generator_ColumnPropNameInRow="JTM86_AG_ACT" msprop:Generator_ColumnPropNameInTable="JTM86_AG_ACTColumn" msprop:Generator_UserColumnName="JTM86_AG_ACT" type="xs:double" minOccurs="0" />
+              <xs:element name="JTM86_GRI_PRESSURE" msprop:Generator_ColumnVarNameInTable="columnJTM86_GRI_PRESSURE" msprop:Generator_ColumnPropNameInRow="JTM86_GRI_PRESSURE" msprop:Generator_ColumnPropNameInTable="JTM86_GRI_PRESSUREColumn" msprop:Generator_UserColumnName="JTM86_GRI_PRESSURE" type="xs:double" minOccurs="0" />
+              <xs:element name="JTM86_VEN_PRESSURE" msprop:Generator_ColumnVarNameInTable="columnJTM86_VEN_PRESSURE" msprop:Generator_ColumnPropNameInRow="JTM86_VEN_PRESSURE" msprop:Generator_ColumnPropNameInTable="JTM86_VEN_PRESSUREColumn" msprop:Generator_UserColumnName="JTM86_VEN_PRESSURE" type="xs:double" minOccurs="0" />
+              <xs:element name="JTM86_Main_PRESSURE" msprop:Generator_ColumnVarNameInTable="columnJTM86_Main_PRESSURE" msprop:Generator_ColumnPropNameInRow="JTM86_Main_PRESSURE" msprop:Generator_ColumnPropNameInTable="JTM86_Main_PRESSUREColumn" msprop:Generator_UserColumnName="JTM86_Main_PRESSURE" type="xs:double" minOccurs="0" />
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProductNo" msprop:Generator_ColumnVarNameInTable="columnProductNo" msprop:Generator_ColumnPropNameInRow="ProductNo" msprop:Generator_ColumnPropNameInTable="ProductNoColumn" msprop:Generator_UserColumnName="ProductNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SECTIONNo" msprop:Generator_ColumnVarNameInTable="columnSECTIONNo" msprop:Generator_ColumnPropNameInRow="SECTIONNo" msprop:Generator_ColumnPropNameInTable="SECTIONNoColumn" msprop:Generator_UserColumnName="SECTIONNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EQUIPMENTNAME" msprop:Generator_ColumnVarNameInTable="columnEQUIPMENTNAME" msprop:Generator_ColumnPropNameInRow="EQUIPMENTNAME" msprop:Generator_ColumnPropNameInTable="EQUIPMENTNAMEColumn" msprop:Generator_UserColumnName="EQUIPMENTNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="batchStartTime" msprop:Generator_ColumnVarNameInTable="columnbatchStartTime" msprop:Generator_ColumnPropNameInRow="batchStartTime" msprop:Generator_ColumnPropNameInTable="batchStartTimeColumn" msprop:Generator_UserColumnName="batchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="batchEndTime" msprop:Generator_ColumnVarNameInTable="columnbatchEndTime" msprop:Generator_ColumnPropNameInRow="batchEndTime" msprop:Generator_ColumnPropNameInTable="batchEndTimeColumn" msprop:Generator_UserColumnName="batchEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="Venturi_Acceptance2" msprop:Generator_ColumnVarNameInTable="columnVenturi_Acceptance2" msprop:Generator_ColumnPropNameInRow="Venturi_Acceptance2" msprop:Generator_ColumnPropNameInTable="Venturi_Acceptance2Column" msprop:Generator_UserColumnName="Venturi_Acceptance2" type="xs:string" minOccurs="0" />
+              <xs:element name="Venturi_Acceptance1" msprop:Generator_ColumnVarNameInTable="columnVenturi_Acceptance1" msprop:Generator_ColumnPropNameInRow="Venturi_Acceptance1" msprop:Generator_ColumnPropNameInTable="Venturi_Acceptance1Column" msprop:Generator_UserColumnName="Venturi_Acceptance1" type="xs:string" minOccurs="0" />
+              <xs:element name="Grinding_Acceptance1" msprop:Generator_ColumnVarNameInTable="columnGrinding_Acceptance1" msprop:Generator_ColumnPropNameInRow="Grinding_Acceptance1" msprop:Generator_ColumnPropNameInTable="Grinding_Acceptance1Column" msprop:Generator_UserColumnName="Grinding_Acceptance1" type="xs:string" minOccurs="0" />
+              <xs:element name="Grinding_Acceptance2" msprop:Generator_ColumnVarNameInTable="columnGrinding_Acceptance2" msprop:Generator_ColumnPropNameInRow="Grinding_Acceptance2" msprop:Generator_ColumnPropNameInTable="Grinding_Acceptance2Column" msprop:Generator_UserColumnName="Grinding_Acceptance2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_API4_JTM87" msprop:Generator_TableClassName="v_API4_JTM87DataTable" msprop:Generator_TableVarName="tablev_API4_JTM87" msprop:Generator_TablePropName="v_API4_JTM87" msprop:Generator_RowDeletingName="v_API4_JTM87RowDeleting" msprop:Generator_RowChangingName="v_API4_JTM87RowChanging" msprop:Generator_RowEvHandlerName="v_API4_JTM87RowChangeEventHandler" msprop:Generator_RowDeletedName="v_API4_JTM87RowDeleted" msprop:Generator_UserTableName="v_API4_JTM87" msprop:Generator_RowChangedName="v_API4_JTM87RowChanged" msprop:Generator_RowEvArgName="v_API4_JTM87RowChangeEvent" msprop:Generator_RowClassName="v_API4_JTM87Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="JTM87_AG_ACT" msprop:Generator_ColumnVarNameInTable="columnJTM87_AG_ACT" msprop:Generator_ColumnPropNameInRow="JTM87_AG_ACT" msprop:Generator_ColumnPropNameInTable="JTM87_AG_ACTColumn" msprop:Generator_UserColumnName="JTM87_AG_ACT" type="xs:double" minOccurs="0" />
+              <xs:element name="JTM87_GRI_PRESSURE" msprop:Generator_ColumnVarNameInTable="columnJTM87_GRI_PRESSURE" msprop:Generator_ColumnPropNameInRow="JTM87_GRI_PRESSURE" msprop:Generator_ColumnPropNameInTable="JTM87_GRI_PRESSUREColumn" msprop:Generator_UserColumnName="JTM87_GRI_PRESSURE" type="xs:double" minOccurs="0" />
+              <xs:element name="JTM87_VEN_PRESSURE" msprop:Generator_ColumnVarNameInTable="columnJTM87_VEN_PRESSURE" msprop:Generator_ColumnPropNameInRow="JTM87_VEN_PRESSURE" msprop:Generator_ColumnPropNameInTable="JTM87_VEN_PRESSUREColumn" msprop:Generator_UserColumnName="JTM87_VEN_PRESSURE" type="xs:double" minOccurs="0" />
+              <xs:element name="JTM87_Main_PRESSURE" msprop:Generator_ColumnVarNameInTable="columnJTM87_Main_PRESSURE" msprop:Generator_ColumnPropNameInRow="JTM87_Main_PRESSURE" msprop:Generator_ColumnPropNameInTable="JTM87_Main_PRESSUREColumn" msprop:Generator_UserColumnName="JTM87_Main_PRESSURE" type="xs:double" minOccurs="0" />
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ProductNo" msprop:Generator_ColumnVarNameInTable="columnProductNo" msprop:Generator_ColumnPropNameInRow="ProductNo" msprop:Generator_ColumnPropNameInTable="ProductNoColumn" msprop:Generator_UserColumnName="ProductNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SECTIONNo" msprop:Generator_ColumnVarNameInTable="columnSECTIONNo" msprop:Generator_ColumnPropNameInRow="SECTIONNo" msprop:Generator_ColumnPropNameInTable="SECTIONNoColumn" msprop:Generator_UserColumnName="SECTIONNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EQUIPMENTNAME" msprop:Generator_ColumnVarNameInTable="columnEQUIPMENTNAME" msprop:Generator_ColumnPropNameInRow="EQUIPMENTNAME" msprop:Generator_ColumnPropNameInTable="EQUIPMENTNAMEColumn" msprop:Generator_UserColumnName="EQUIPMENTNAME" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="batchStartTime" msprop:Generator_ColumnVarNameInTable="columnbatchStartTime" msprop:Generator_ColumnPropNameInRow="batchStartTime" msprop:Generator_ColumnPropNameInTable="batchStartTimeColumn" msprop:Generator_UserColumnName="batchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="batchEndTime" msprop:Generator_ColumnVarNameInTable="columnbatchEndTime" msprop:Generator_ColumnPropNameInRow="batchEndTime" msprop:Generator_ColumnPropNameInTable="batchEndTimeColumn" msprop:Generator_UserColumnName="batchEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="Venturi_Acceptance2" msprop:Generator_ColumnVarNameInTable="columnVenturi_Acceptance2" msprop:Generator_ColumnPropNameInRow="Venturi_Acceptance2" msprop:Generator_ColumnPropNameInTable="Venturi_Acceptance2Column" msprop:Generator_UserColumnName="Venturi_Acceptance2" type="xs:string" minOccurs="0" />
+              <xs:element name="Venturi_Acceptance1" msprop:Generator_ColumnVarNameInTable="columnVenturi_Acceptance1" msprop:Generator_ColumnPropNameInRow="Venturi_Acceptance1" msprop:Generator_ColumnPropNameInTable="Venturi_Acceptance1Column" msprop:Generator_UserColumnName="Venturi_Acceptance1" type="xs:string" minOccurs="0" />
+              <xs:element name="Grinding_Acceptance1" msprop:Generator_ColumnVarNameInTable="columnGrinding_Acceptance1" msprop:Generator_ColumnPropNameInRow="Grinding_Acceptance1" msprop:Generator_ColumnPropNameInTable="Grinding_Acceptance1Column" msprop:Generator_UserColumnName="Grinding_Acceptance1" type="xs:string" minOccurs="0" />
+              <xs:element name="Grinding_Acceptance2" msprop:Generator_ColumnVarNameInTable="columnGrinding_Acceptance2" msprop:Generator_ColumnPropNameInRow="Grinding_Acceptance2" msprop:Generator_ColumnPropNameInTable="Grinding_Acceptance2Column" msprop:Generator_UserColumnName="Grinding_Acceptance2" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_API4_GLR23" msprop:Generator_TableClassName="v_API4_GLR23DataTable" msprop:Generator_TableVarName="tablev_API4_GLR23" msprop:Generator_TablePropName="v_API4_GLR23" msprop:Generator_RowDeletingName="v_API4_GLR23RowDeleting" msprop:Generator_RowChangingName="v_API4_GLR23RowChanging" msprop:Generator_RowEvHandlerName="v_API4_GLR23RowChangeEventHandler" msprop:Generator_RowDeletedName="v_API4_GLR23RowDeleted" msprop:Generator_UserTableName="v_API4_GLR23" msprop:Generator_RowChangedName="v_API4_GLR23RowChanged" msprop:Generator_RowEvArgName="v_API4_GLR23RowChangeEvent" msprop:Generator_RowClassName="v_API4_GLR23Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RPMAct" msprop:Generator_ColumnVarNameInTable="columnRPMAct" msprop:Generator_ColumnPropNameInRow="RPMAct" msprop:Generator_ColumnPropNameInTable="RPMActColumn" msprop:Generator_UserColumnName="RPMAct" type="xs:double" minOccurs="0" />
+              <xs:element name="RPMSet" msprop:Generator_ColumnVarNameInTable="columnRPMSet" msprop:Generator_ColumnPropNameInRow="RPMSet" msprop:Generator_ColumnPropNameInTable="RPMSetColumn" msprop:Generator_UserColumnName="RPMSet" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureAct" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureAct" msprop:Generator_ColumnPropNameInRow="VacuumPressureAct" msprop:Generator_ColumnPropNameInTable="VacuumPressureActColumn" msprop:Generator_UserColumnName="VacuumPressureAct" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureSet" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureSet" msprop:Generator_ColumnPropNameInRow="VacuumPressureSet" msprop:Generator_ColumnPropNameInTable="VacuumPressureSetColumn" msprop:Generator_UserColumnName="VacuumPressureSet" type="xs:double" minOccurs="0" />
+              <xs:element name="Temp_Act" msprop:Generator_ColumnVarNameInTable="columnTemp_Act" msprop:Generator_ColumnPropNameInRow="Temp_Act" msprop:Generator_ColumnPropNameInTable="Temp_ActColumn" msprop:Generator_UserColumnName="Temp_Act" type="xs:double" minOccurs="0" />
+              <xs:element name="TempLowerLim" msprop:Generator_ColumnVarNameInTable="columnTempLowerLim" msprop:Generator_ColumnPropNameInRow="TempLowerLim" msprop:Generator_ColumnPropNameInTable="TempLowerLimColumn" msprop:Generator_UserColumnName="TempLowerLim" type="xs:double" minOccurs="0" />
+              <xs:element name="Temp_Set" msprop:Generator_ColumnVarNameInTable="columnTemp_Set" msprop:Generator_ColumnPropNameInRow="Temp_Set" msprop:Generator_ColumnPropNameInTable="Temp_SetColumn" msprop:Generator_UserColumnName="Temp_Set" type="xs:double" minOccurs="0" />
+              <xs:element name="TempUpperLim" msprop:Generator_ColumnVarNameInTable="columnTempUpperLim" msprop:Generator_ColumnPropNameInRow="TempUpperLim" msprop:Generator_ColumnPropNameInTable="TempUpperLimColumn" msprop:Generator_UserColumnName="TempUpperLim" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventMessage" msprop:Generator_ColumnVarNameInTable="columnEventMessage" msprop:Generator_ColumnPropNameInRow="EventMessage" msprop:Generator_ColumnPropNameInTable="EventMessageColumn" msprop:Generator_UserColumnName="EventMessage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="StepNumber" msprop:Generator_ColumnVarNameInTable="columnStepNumber" msprop:Generator_ColumnPropNameInRow="StepNumber" msprop:Generator_ColumnPropNameInTable="StepNumberColumn" msprop:Generator_UserColumnName="StepNumber" type="xs:string" minOccurs="0" />
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="customrpma" msprop:Generator_ColumnVarNameInTable="columncustomrpma" msprop:Generator_ColumnPropNameInRow="customrpma" msprop:Generator_ColumnPropNameInTable="customrpmaColumn" msprop:Generator_UserColumnName="customrpma" type="xs:string" minOccurs="0" />
+              <xs:element name="customta" msprop:Generator_ColumnVarNameInTable="columncustomta" msprop:Generator_ColumnPropNameInRow="customta" msprop:Generator_ColumnPropNameInTable="customtaColumn" msprop:Generator_UserColumnName="customta" type="xs:string" minOccurs="0" />
+              <xs:element name="tacceptance" msprop:Generator_ColumnVarNameInTable="columntacceptance" msprop:Generator_ColumnPropNameInRow="tacceptance" msprop:Generator_ColumnPropNameInTable="tacceptanceColumn" msprop:Generator_UserColumnName="tacceptance" type="xs:string" minOccurs="0" />
+              <xs:element name="stepnum" msprop:Generator_ColumnVarNameInTable="columnstepnum" msprop:Generator_ColumnPropNameInRow="stepnum" msprop:Generator_ColumnPropNameInTable="stepnumColumn" msprop:Generator_UserColumnName="stepnum" type="xs:string" minOccurs="0" />
+              <xs:element name="batchStartTime" msprop:Generator_ColumnVarNameInTable="columnbatchStartTime" msprop:Generator_ColumnPropNameInRow="batchStartTime" msprop:Generator_ColumnPropNameInTable="batchStartTimeColumn" msprop:Generator_UserColumnName="batchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="batchEndTime" msprop:Generator_ColumnVarNameInTable="columnbatchEndTime" msprop:Generator_ColumnPropNameInRow="batchEndTime" msprop:Generator_ColumnPropNameInTable="batchEndTimeColumn" msprop:Generator_UserColumnName="batchEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="customva" msprop:Generator_ColumnVarNameInTable="columncustomva" msprop:Generator_ColumnPropNameInRow="customva" msprop:Generator_ColumnPropNameInTable="customvaColumn" msprop:Generator_UserColumnName="customva" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrpage" msprop:Generator_ColumnVarNameInTable="columncustombmrpage" msprop:Generator_ColumnPropNameInRow="custombmrpage" msprop:Generator_ColumnPropNameInTable="custombmrpageColumn" msprop:Generator_UserColumnName="custombmrpage" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrsection" msprop:Generator_ColumnVarNameInTable="columncustombmrsection" msprop:Generator_ColumnPropNameInRow="custombmrsection" msprop:Generator_ColumnPropNameInTable="custombmrsectionColumn" msprop:Generator_UserColumnName="custombmrsection" type="xs:string" minOccurs="0" />
+              <xs:element name="customproductname" msprop:Generator_ColumnVarNameInTable="columncustomproductname" msprop:Generator_ColumnPropNameInRow="customproductname" msprop:Generator_ColumnPropNameInTable="customproductnameColumn" msprop:Generator_UserColumnName="customproductname" type="xs:string" minOccurs="0" />
+              <xs:element name="batchno" msprop:Generator_ColumnVarNameInTable="columnbatchno" msprop:Generator_ColumnPropNameInRow="batchno" msprop:Generator_ColumnPropNameInTable="batchnoColumn" msprop:Generator_UserColumnName="batchno" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_API4_GLR36" msprop:Generator_TableClassName="v_API4_GLR36DataTable" msprop:Generator_TableVarName="tablev_API4_GLR36" msprop:Generator_TablePropName="v_API4_GLR36" msprop:Generator_RowDeletingName="v_API4_GLR36RowDeleting" msprop:Generator_RowChangingName="v_API4_GLR36RowChanging" msprop:Generator_RowEvHandlerName="v_API4_GLR36RowChangeEventHandler" msprop:Generator_RowDeletedName="v_API4_GLR36RowDeleted" msprop:Generator_UserTableName="v_API4_GLR36" msprop:Generator_RowChangedName="v_API4_GLR36RowChanged" msprop:Generator_RowEvArgName="v_API4_GLR36RowChangeEvent" msprop:Generator_RowClassName="v_API4_GLR36Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="AgitatorSpeedAct" msprop:Generator_ColumnVarNameInTable="columnAgitatorSpeedAct" msprop:Generator_ColumnPropNameInRow="AgitatorSpeedAct" msprop:Generator_ColumnPropNameInTable="AgitatorSpeedActColumn" msprop:Generator_UserColumnName="AgitatorSpeedAct" type="xs:double" minOccurs="0" />
+              <xs:element name="AgitatorSpeedSet" msprop:Generator_ColumnVarNameInTable="columnAgitatorSpeedSet" msprop:Generator_ColumnPropNameInRow="AgitatorSpeedSet" msprop:Generator_ColumnPropNameInTable="AgitatorSpeedSetColumn" msprop:Generator_UserColumnName="AgitatorSpeedSet" type="xs:double" minOccurs="0" />
+              <xs:element name="GLR36_BATCH_START" msprop:Generator_ColumnVarNameInTable="columnGLR36_BATCH_START" msprop:Generator_ColumnPropNameInRow="GLR36_BATCH_START" msprop:Generator_ColumnPropNameInTable="GLR36_BATCH_STARTColumn" msprop:Generator_UserColumnName="GLR36_BATCH_START" type="xs:double" minOccurs="0" />
+              <xs:element name="pressure_Act" msprop:Generator_ColumnVarNameInTable="columnpressure_Act" msprop:Generator_ColumnPropNameInRow="pressure_Act" msprop:Generator_ColumnPropNameInTable="pressure_ActColumn" msprop:Generator_UserColumnName="pressure_Act" type="xs:double" minOccurs="0" />
+              <xs:element name="pressure_SP" msprop:Generator_ColumnVarNameInTable="columnpressure_SP" msprop:Generator_ColumnPropNameInRow="pressure_SP" msprop:Generator_ColumnPropNameInTable="pressure_SPColumn" msprop:Generator_UserColumnName="pressure_SP" type="xs:double" minOccurs="0" />
+              <xs:element name="Temp_Act" msprop:Generator_ColumnVarNameInTable="columnTemp_Act" msprop:Generator_ColumnPropNameInRow="Temp_Act" msprop:Generator_ColumnPropNameInTable="Temp_ActColumn" msprop:Generator_UserColumnName="Temp_Act" type="xs:double" minOccurs="0" />
+              <xs:element name="TempLowerLim" msprop:Generator_ColumnVarNameInTable="columnTempLowerLim" msprop:Generator_ColumnPropNameInRow="TempLowerLim" msprop:Generator_ColumnPropNameInTable="TempLowerLimColumn" msprop:Generator_UserColumnName="TempLowerLim" type="xs:double" minOccurs="0" />
+              <xs:element name="Temp_SP" msprop:Generator_ColumnVarNameInTable="columnTemp_SP" msprop:Generator_ColumnPropNameInRow="Temp_SP" msprop:Generator_ColumnPropNameInTable="Temp_SPColumn" msprop:Generator_UserColumnName="Temp_SP" type="xs:double" minOccurs="0" />
+              <xs:element name="TempUpperLim" msprop:Generator_ColumnVarNameInTable="columnTempUpperLim" msprop:Generator_ColumnPropNameInRow="TempUpperLim" msprop:Generator_ColumnPropNameInTable="TempUpperLimColumn" msprop:Generator_UserColumnName="TempUpperLim" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventMessage" msprop:Generator_ColumnVarNameInTable="columnEventMessage" msprop:Generator_ColumnPropNameInRow="EventMessage" msprop:Generator_ColumnPropNameInTable="EventMessageColumn" msprop:Generator_UserColumnName="EventMessage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GLR36_Operator_Name" msprop:Generator_ColumnVarNameInTable="columnGLR36_Operator_Name" msprop:Generator_ColumnPropNameInRow="GLR36_Operator_Name" msprop:Generator_ColumnPropNameInTable="GLR36_Operator_NameColumn" msprop:Generator_UserColumnName="GLR36_Operator_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GLR36_Recipe_Name" msprop:Generator_ColumnVarNameInTable="columnGLR36_Recipe_Name" msprop:Generator_ColumnPropNameInRow="GLR36_Recipe_Name" msprop:Generator_ColumnPropNameInTable="GLR36_Recipe_NameColumn" msprop:Generator_UserColumnName="GLR36_Recipe_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="customrpma" msprop:Generator_ColumnVarNameInTable="columncustomrpma" msprop:Generator_ColumnPropNameInRow="customrpma" msprop:Generator_ColumnPropNameInTable="customrpmaColumn" msprop:Generator_UserColumnName="customrpma" type="xs:string" minOccurs="0" />
+              <xs:element name="customta" msprop:Generator_ColumnVarNameInTable="columncustomta" msprop:Generator_ColumnPropNameInRow="customta" msprop:Generator_ColumnPropNameInTable="customtaColumn" msprop:Generator_UserColumnName="customta" type="xs:string" minOccurs="0" />
+              <xs:element name="tacceptance" msprop:Generator_ColumnVarNameInTable="columntacceptance" msprop:Generator_ColumnPropNameInRow="tacceptance" msprop:Generator_ColumnPropNameInTable="tacceptanceColumn" msprop:Generator_UserColumnName="tacceptance" type="xs:string" minOccurs="0" />
+              <xs:element name="customva" msprop:Generator_ColumnVarNameInTable="columncustomva" msprop:Generator_ColumnPropNameInRow="customva" msprop:Generator_ColumnPropNameInTable="customvaColumn" msprop:Generator_UserColumnName="customva" type="xs:string" minOccurs="0" />
+              <xs:element name="stepnum" msprop:Generator_ColumnVarNameInTable="columnstepnum" msprop:Generator_ColumnPropNameInRow="stepnum" msprop:Generator_ColumnPropNameInTable="stepnumColumn" msprop:Generator_UserColumnName="stepnum" type="xs:string" minOccurs="0" />
+              <xs:element name="batchStartTime" msprop:Generator_ColumnVarNameInTable="columnbatchStartTime" msprop:Generator_ColumnPropNameInRow="batchStartTime" msprop:Generator_ColumnPropNameInTable="batchStartTimeColumn" msprop:Generator_UserColumnName="batchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="batchEndTime" msprop:Generator_ColumnVarNameInTable="columnbatchEndTime" msprop:Generator_ColumnPropNameInRow="batchEndTime" msprop:Generator_ColumnPropNameInTable="batchEndTimeColumn" msprop:Generator_UserColumnName="batchEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrpage" msprop:Generator_ColumnVarNameInTable="columncustombmrpage" msprop:Generator_ColumnPropNameInRow="custombmrpage" msprop:Generator_ColumnPropNameInTable="custombmrpageColumn" msprop:Generator_UserColumnName="custombmrpage" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrsection" msprop:Generator_ColumnVarNameInTable="columncustombmrsection" msprop:Generator_ColumnPropNameInRow="custombmrsection" msprop:Generator_ColumnPropNameInTable="custombmrsectionColumn" msprop:Generator_UserColumnName="custombmrsection" type="xs:string" minOccurs="0" />
+              <xs:element name="batchno" msprop:Generator_ColumnVarNameInTable="columnbatchno" msprop:Generator_ColumnPropNameInRow="batchno" msprop:Generator_ColumnPropNameInTable="batchnoColumn" msprop:Generator_UserColumnName="batchno" type="xs:string" minOccurs="0" />
+              <xs:element name="customproductname" msprop:Generator_ColumnVarNameInTable="columncustomproductname" msprop:Generator_ColumnPropNameInRow="customproductname" msprop:Generator_ColumnPropNameInTable="customproductnameColumn" msprop:Generator_UserColumnName="customproductname" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_API4_SSR24" msprop:Generator_TableClassName="v_API4_SSR24DataTable" msprop:Generator_TableVarName="tablev_API4_SSR24" msprop:Generator_RowChangedName="v_API4_SSR24RowChanged" msprop:Generator_TablePropName="v_API4_SSR24" msprop:Generator_RowDeletingName="v_API4_SSR24RowDeleting" msprop:Generator_RowChangingName="v_API4_SSR24RowChanging" msprop:Generator_RowEvHandlerName="v_API4_SSR24RowChangeEventHandler" msprop:Generator_RowDeletedName="v_API4_SSR24RowDeleted" msprop:Generator_RowClassName="v_API4_SSR24Row" msprop:Generator_UserTableName="v_API4_SSR24" msprop:Generator_RowEvArgName="v_API4_SSR24RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RPMAct" msprop:Generator_ColumnVarNameInTable="columnRPMAct" msprop:Generator_ColumnPropNameInRow="RPMAct" msprop:Generator_ColumnPropNameInTable="RPMActColumn" msprop:Generator_UserColumnName="RPMAct" type="xs:double" minOccurs="0" />
+              <xs:element name="RPMSet" msprop:Generator_ColumnVarNameInTable="columnRPMSet" msprop:Generator_ColumnPropNameInRow="RPMSet" msprop:Generator_ColumnPropNameInTable="RPMSetColumn" msprop:Generator_UserColumnName="RPMSet" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureAct" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureAct" msprop:Generator_ColumnPropNameInRow="VacuumPressureAct" msprop:Generator_ColumnPropNameInTable="VacuumPressureActColumn" msprop:Generator_UserColumnName="VacuumPressureAct" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureSet" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureSet" msprop:Generator_ColumnPropNameInRow="VacuumPressureSet" msprop:Generator_ColumnPropNameInTable="VacuumPressureSetColumn" msprop:Generator_UserColumnName="VacuumPressureSet" type="xs:double" minOccurs="0" />
+              <xs:element name="Temp_Act" msprop:Generator_ColumnVarNameInTable="columnTemp_Act" msprop:Generator_ColumnPropNameInRow="Temp_Act" msprop:Generator_ColumnPropNameInTable="Temp_ActColumn" msprop:Generator_UserColumnName="Temp_Act" type="xs:double" minOccurs="0" />
+              <xs:element name="TempLowerLim" msprop:Generator_ColumnVarNameInTable="columnTempLowerLim" msprop:Generator_ColumnPropNameInRow="TempLowerLim" msprop:Generator_ColumnPropNameInTable="TempLowerLimColumn" msprop:Generator_UserColumnName="TempLowerLim" type="xs:double" minOccurs="0" />
+              <xs:element name="Temp_Set" msprop:Generator_ColumnVarNameInTable="columnTemp_Set" msprop:Generator_ColumnPropNameInRow="Temp_Set" msprop:Generator_ColumnPropNameInTable="Temp_SetColumn" msprop:Generator_UserColumnName="Temp_Set" type="xs:double" minOccurs="0" />
+              <xs:element name="TempUpperLim" msprop:Generator_ColumnVarNameInTable="columnTempUpperLim" msprop:Generator_ColumnPropNameInRow="TempUpperLim" msprop:Generator_ColumnPropNameInTable="TempUpperLimColumn" msprop:Generator_UserColumnName="TempUpperLim" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventMessage" msprop:Generator_ColumnVarNameInTable="columnEventMessage" msprop:Generator_ColumnPropNameInRow="EventMessage" msprop:Generator_ColumnPropNameInTable="EventMessageColumn" msprop:Generator_UserColumnName="EventMessage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="customrpma" msprop:Generator_ColumnVarNameInTable="columncustomrpma" msprop:Generator_ColumnPropNameInRow="customrpma" msprop:Generator_ColumnPropNameInTable="customrpmaColumn" msprop:Generator_UserColumnName="customrpma" type="xs:string" minOccurs="0" />
+              <xs:element name="customta" msprop:Generator_ColumnVarNameInTable="columncustomta" msprop:Generator_ColumnPropNameInRow="customta" msprop:Generator_ColumnPropNameInTable="customtaColumn" msprop:Generator_UserColumnName="customta" type="xs:string" minOccurs="0" />
+              <xs:element name="tacceptance" msprop:Generator_ColumnVarNameInTable="columntacceptance" msprop:Generator_ColumnPropNameInRow="tacceptance" msprop:Generator_ColumnPropNameInTable="tacceptanceColumn" msprop:Generator_UserColumnName="tacceptance" type="xs:string" minOccurs="0" />
+              <xs:element name="customva" msprop:Generator_ColumnVarNameInTable="columncustomva" msprop:Generator_ColumnPropNameInRow="customva" msprop:Generator_ColumnPropNameInTable="customvaColumn" msprop:Generator_UserColumnName="customva" type="xs:string" minOccurs="0" />
+              <xs:element name="stepnum" msprop:Generator_ColumnVarNameInTable="columnstepnum" msprop:Generator_ColumnPropNameInRow="stepnum" msprop:Generator_ColumnPropNameInTable="stepnumColumn" msprop:Generator_UserColumnName="stepnum" type="xs:string" minOccurs="0" />
+              <xs:element name="batchStartTime" msprop:Generator_ColumnVarNameInTable="columnbatchStartTime" msprop:Generator_ColumnPropNameInRow="batchStartTime" msprop:Generator_ColumnPropNameInTable="batchStartTimeColumn" msprop:Generator_UserColumnName="batchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="batchEndTime" msprop:Generator_ColumnVarNameInTable="columnbatchEndTime" msprop:Generator_ColumnPropNameInRow="batchEndTime" msprop:Generator_ColumnPropNameInTable="batchEndTimeColumn" msprop:Generator_UserColumnName="batchEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="FLOW_ACT" msprop:Generator_ColumnVarNameInTable="columnFLOW_ACT" msprop:Generator_ColumnPropNameInRow="FLOW_ACT" msprop:Generator_ColumnPropNameInTable="FLOW_ACTColumn" msprop:Generator_UserColumnName="FLOW_ACT" type="xs:string" minOccurs="0" />
+              <xs:element name="FLOW_SP" msprop:Generator_ColumnVarNameInTable="columnFLOW_SP" msprop:Generator_ColumnPropNameInRow="FLOW_SP" msprop:Generator_ColumnPropNameInTable="FLOW_SPColumn" msprop:Generator_UserColumnName="FLOW_SP" type="xs:string" minOccurs="0" />
+              <xs:element name="FLOW_TOT" msprop:Generator_ColumnVarNameInTable="columnFLOW_TOT" msprop:Generator_ColumnPropNameInRow="FLOW_TOT" msprop:Generator_ColumnPropNameInTable="FLOW_TOTColumn" msprop:Generator_UserColumnName="FLOW_TOT" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrpage" msprop:Generator_ColumnVarNameInTable="columncustombmrpage" msprop:Generator_ColumnPropNameInRow="custombmrpage" msprop:Generator_ColumnPropNameInTable="custombmrpageColumn" msprop:Generator_UserColumnName="custombmrpage" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrsection" msprop:Generator_ColumnVarNameInTable="columncustombmrsection" msprop:Generator_ColumnPropNameInRow="custombmrsection" msprop:Generator_ColumnPropNameInTable="custombmrsectionColumn" msprop:Generator_UserColumnName="custombmrsection" type="xs:string" minOccurs="0" />
+              <xs:element name="batchno" msprop:Generator_ColumnVarNameInTable="columnbatchno" msprop:Generator_ColumnPropNameInRow="batchno" msprop:Generator_ColumnPropNameInTable="batchnoColumn" msprop:Generator_UserColumnName="batchno" type="xs:string" minOccurs="0" />
+              <xs:element name="customproductname" msprop:Generator_ColumnVarNameInTable="columncustomproductname" msprop:Generator_ColumnPropNameInRow="customproductname" msprop:Generator_ColumnPropNameInTable="customproductnameColumn" msprop:Generator_UserColumnName="customproductname" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_API4_RCVD350" msprop:Generator_TableClassName="v_API4_RCVD350DataTable" msprop:Generator_TableVarName="tablev_API4_RCVD350" msprop:Generator_TablePropName="v_API4_RCVD350" msprop:Generator_RowDeletingName="v_API4_RCVD350RowDeleting" msprop:Generator_RowChangingName="v_API4_RCVD350RowChanging" msprop:Generator_RowEvHandlerName="v_API4_RCVD350RowChangeEventHandler" msprop:Generator_RowDeletedName="v_API4_RCVD350RowDeleted" msprop:Generator_UserTableName="v_API4_RCVD350" msprop:Generator_RowChangedName="v_API4_RCVD350RowChanged" msprop:Generator_RowEvArgName="v_API4_RCVD350RowChangeEvent" msprop:Generator_RowClassName="v_API4_RCVD350Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RPMAct" msprop:Generator_ColumnVarNameInTable="columnRPMAct" msprop:Generator_ColumnPropNameInRow="RPMAct" msprop:Generator_ColumnPropNameInTable="RPMActColumn" msprop:Generator_UserColumnName="RPMAct" type="xs:double" minOccurs="0" />
+              <xs:element name="RPMSET" msprop:Generator_ColumnVarNameInTable="columnRPMSET" msprop:Generator_ColumnPropNameInRow="RPMSET" msprop:Generator_ColumnPropNameInTable="RPMSETColumn" msprop:Generator_UserColumnName="RPMSET" type="xs:double" minOccurs="0" />
+              <xs:element name="MassTempAct" msprop:Generator_ColumnVarNameInTable="columnMassTempAct" msprop:Generator_ColumnPropNameInRow="MassTempAct" msprop:Generator_ColumnPropNameInTable="MassTempActColumn" msprop:Generator_UserColumnName="MassTempAct" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureAct" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureAct" msprop:Generator_ColumnPropNameInRow="VacuumPressureAct" msprop:Generator_ColumnPropNameInTable="VacuumPressureActColumn" msprop:Generator_UserColumnName="VacuumPressureAct" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureSet" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureSet" msprop:Generator_ColumnPropNameInRow="VacuumPressureSet" msprop:Generator_ColumnPropNameInTable="VacuumPressureSetColumn" msprop:Generator_UserColumnName="VacuumPressureSet" type="xs:double" minOccurs="0" />
+              <xs:element name="tempinlet" msprop:Generator_ColumnVarNameInTable="columntempinlet" msprop:Generator_ColumnPropNameInRow="tempinlet" msprop:Generator_ColumnPropNameInTable="tempinletColumn" msprop:Generator_UserColumnName="tempinlet" type="xs:double" minOccurs="0" />
+              <xs:element name="tempoutlet" msprop:Generator_ColumnVarNameInTable="columntempoutlet" msprop:Generator_ColumnPropNameInRow="tempoutlet" msprop:Generator_ColumnPropNameInTable="tempoutletColumn" msprop:Generator_UserColumnName="tempoutlet" type="xs:double" minOccurs="0" />
+              <xs:element name="TempLowerLim" msprop:Generator_ColumnVarNameInTable="columnTempLowerLim" msprop:Generator_ColumnPropNameInRow="TempLowerLim" msprop:Generator_ColumnPropNameInTable="TempLowerLimColumn" msprop:Generator_UserColumnName="TempLowerLim" type="xs:double" minOccurs="0" />
+              <xs:element name="TempUpperLim" msprop:Generator_ColumnVarNameInTable="columnTempUpperLim" msprop:Generator_ColumnPropNameInRow="TempUpperLim" msprop:Generator_ColumnPropNameInTable="TempUpperLimColumn" msprop:Generator_UserColumnName="TempUpperLim" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventMessage" msprop:Generator_ColumnVarNameInTable="columnEventMessage" msprop:Generator_ColumnPropNameInRow="EventMessage" msprop:Generator_ColumnPropNameInTable="EventMessageColumn" msprop:Generator_UserColumnName="EventMessage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="customrpma" msprop:Generator_ColumnVarNameInTable="columncustomrpma" msprop:Generator_ColumnPropNameInRow="customrpma" msprop:Generator_ColumnPropNameInTable="customrpmaColumn" msprop:Generator_UserColumnName="customrpma" type="xs:string" minOccurs="0" />
+              <xs:element name="customta" msprop:Generator_ColumnVarNameInTable="columncustomta" msprop:Generator_ColumnPropNameInRow="customta" msprop:Generator_ColumnPropNameInTable="customtaColumn" msprop:Generator_UserColumnName="customta" type="xs:string" minOccurs="0" />
+              <xs:element name="tacceptance" msprop:Generator_ColumnVarNameInTable="columntacceptance" msprop:Generator_ColumnPropNameInRow="tacceptance" msprop:Generator_ColumnPropNameInTable="tacceptanceColumn" msprop:Generator_UserColumnName="tacceptance" type="xs:string" minOccurs="0" />
+              <xs:element name="customva" msprop:Generator_ColumnVarNameInTable="columncustomva" msprop:Generator_ColumnPropNameInRow="customva" msprop:Generator_ColumnPropNameInTable="customvaColumn" msprop:Generator_UserColumnName="customva" type="xs:string" minOccurs="0" />
+              <xs:element name="stepnum" msprop:Generator_ColumnVarNameInTable="columnstepnum" msprop:Generator_ColumnPropNameInRow="stepnum" msprop:Generator_ColumnPropNameInTable="stepnumColumn" msprop:Generator_UserColumnName="stepnum" type="xs:string" minOccurs="0" />
+              <xs:element name="batchStartTime" msprop:Generator_ColumnVarNameInTable="columnbatchStartTime" msprop:Generator_ColumnPropNameInRow="batchStartTime" msprop:Generator_ColumnPropNameInTable="batchStartTimeColumn" msprop:Generator_UserColumnName="batchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="batchEndTime" msprop:Generator_ColumnVarNameInTable="columnbatchEndTime" msprop:Generator_ColumnPropNameInRow="batchEndTime" msprop:Generator_ColumnPropNameInTable="batchEndTimeColumn" msprop:Generator_UserColumnName="batchEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrpage" msprop:Generator_ColumnVarNameInTable="columncustombmrpage" msprop:Generator_ColumnPropNameInRow="custombmrpage" msprop:Generator_ColumnPropNameInTable="custombmrpageColumn" msprop:Generator_UserColumnName="custombmrpage" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrsection" msprop:Generator_ColumnVarNameInTable="columncustombmrsection" msprop:Generator_ColumnPropNameInRow="custombmrsection" msprop:Generator_ColumnPropNameInTable="custombmrsectionColumn" msprop:Generator_UserColumnName="custombmrsection" type="xs:string" minOccurs="0" />
+              <xs:element name="batchno" msprop:Generator_ColumnVarNameInTable="columnbatchno" msprop:Generator_ColumnPropNameInRow="batchno" msprop:Generator_ColumnPropNameInTable="batchnoColumn" msprop:Generator_UserColumnName="batchno" type="xs:string" minOccurs="0" />
+              <xs:element name="customproductname" msprop:Generator_ColumnVarNameInTable="columncustomproductname" msprop:Generator_ColumnPropNameInRow="customproductname" msprop:Generator_ColumnPropNameInTable="customproductnameColumn" msprop:Generator_UserColumnName="customproductname" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_API4_SSR07" msprop:Generator_TableClassName="v_API4_SSR07DataTable" msprop:Generator_TableVarName="tablev_API4_SSR07" msprop:Generator_TablePropName="v_API4_SSR07" msprop:Generator_RowDeletingName="v_API4_SSR07RowDeleting" msprop:Generator_RowChangingName="v_API4_SSR07RowChanging" msprop:Generator_RowEvHandlerName="v_API4_SSR07RowChangeEventHandler" msprop:Generator_RowDeletedName="v_API4_SSR07RowDeleted" msprop:Generator_UserTableName="v_API4_SSR07" msprop:Generator_RowChangedName="v_API4_SSR07RowChanged" msprop:Generator_RowEvArgName="v_API4_SSR07RowChangeEvent" msprop:Generator_RowClassName="v_API4_SSR07Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RPMAct" msprop:Generator_ColumnVarNameInTable="columnRPMAct" msprop:Generator_ColumnPropNameInRow="RPMAct" msprop:Generator_ColumnPropNameInTable="RPMActColumn" msprop:Generator_UserColumnName="RPMAct" type="xs:double" minOccurs="0" />
+              <xs:element name="RPMSet" msprop:Generator_ColumnVarNameInTable="columnRPMSet" msprop:Generator_ColumnPropNameInRow="RPMSet" msprop:Generator_ColumnPropNameInTable="RPMSetColumn" msprop:Generator_UserColumnName="RPMSet" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureAct" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureAct" msprop:Generator_ColumnPropNameInRow="VacuumPressureAct" msprop:Generator_ColumnPropNameInTable="VacuumPressureActColumn" msprop:Generator_UserColumnName="VacuumPressureAct" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureSet" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureSet" msprop:Generator_ColumnPropNameInRow="VacuumPressureSet" msprop:Generator_ColumnPropNameInTable="VacuumPressureSetColumn" msprop:Generator_UserColumnName="VacuumPressureSet" type="xs:double" minOccurs="0" />
+              <xs:element name="Temp_Act" msprop:Generator_ColumnVarNameInTable="columnTemp_Act" msprop:Generator_ColumnPropNameInRow="Temp_Act" msprop:Generator_ColumnPropNameInTable="Temp_ActColumn" msprop:Generator_UserColumnName="Temp_Act" type="xs:double" minOccurs="0" />
+              <xs:element name="TempLowerLim" msprop:Generator_ColumnVarNameInTable="columnTempLowerLim" msprop:Generator_ColumnPropNameInRow="TempLowerLim" msprop:Generator_ColumnPropNameInTable="TempLowerLimColumn" msprop:Generator_UserColumnName="TempLowerLim" type="xs:double" minOccurs="0" />
+              <xs:element name="Temp_Set" msprop:Generator_ColumnVarNameInTable="columnTemp_Set" msprop:Generator_ColumnPropNameInRow="Temp_Set" msprop:Generator_ColumnPropNameInTable="Temp_SetColumn" msprop:Generator_UserColumnName="Temp_Set" type="xs:double" minOccurs="0" />
+              <xs:element name="TempUpperLim" msprop:Generator_ColumnVarNameInTable="columnTempUpperLim" msprop:Generator_ColumnPropNameInRow="TempUpperLim" msprop:Generator_ColumnPropNameInTable="TempUpperLimColumn" msprop:Generator_UserColumnName="TempUpperLim" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventMessage" msprop:Generator_ColumnVarNameInTable="columnEventMessage" msprop:Generator_ColumnPropNameInRow="EventMessage" msprop:Generator_ColumnPropNameInTable="EventMessageColumn" msprop:Generator_UserColumnName="EventMessage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="customrpma" msprop:Generator_ColumnVarNameInTable="columncustomrpma" msprop:Generator_ColumnPropNameInRow="customrpma" msprop:Generator_ColumnPropNameInTable="customrpmaColumn" msprop:Generator_UserColumnName="customrpma" type="xs:string" minOccurs="0" />
+              <xs:element name="customta" msprop:Generator_ColumnVarNameInTable="columncustomta" msprop:Generator_ColumnPropNameInRow="customta" msprop:Generator_ColumnPropNameInTable="customtaColumn" msprop:Generator_UserColumnName="customta" type="xs:string" minOccurs="0" />
+              <xs:element name="tacceptance" msprop:Generator_ColumnVarNameInTable="columntacceptance" msprop:Generator_ColumnPropNameInRow="tacceptance" msprop:Generator_ColumnPropNameInTable="tacceptanceColumn" msprop:Generator_UserColumnName="tacceptance" type="xs:string" minOccurs="0" />
+              <xs:element name="customva" msprop:Generator_ColumnVarNameInTable="columncustomva" msprop:Generator_ColumnPropNameInRow="customva" msprop:Generator_ColumnPropNameInTable="customvaColumn" msprop:Generator_UserColumnName="customva" type="xs:string" minOccurs="0" />
+              <xs:element name="stepnum" msprop:Generator_ColumnVarNameInTable="columnstepnum" msprop:Generator_ColumnPropNameInRow="stepnum" msprop:Generator_ColumnPropNameInTable="stepnumColumn" msprop:Generator_UserColumnName="stepnum" type="xs:string" minOccurs="0" />
+              <xs:element name="batchStartTime" msprop:Generator_ColumnVarNameInTable="columnbatchStartTime" msprop:Generator_ColumnPropNameInRow="batchStartTime" msprop:Generator_ColumnPropNameInTable="batchStartTimeColumn" msprop:Generator_UserColumnName="batchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="batchEndTime" msprop:Generator_ColumnVarNameInTable="columnbatchEndTime" msprop:Generator_ColumnPropNameInRow="batchEndTime" msprop:Generator_ColumnPropNameInTable="batchEndTimeColumn" msprop:Generator_UserColumnName="batchEndTime" type="xs:string" minOccurs="0" />
+              <xs:element name="FLOW_ACT" msprop:Generator_ColumnVarNameInTable="columnFLOW_ACT" msprop:Generator_ColumnPropNameInRow="FLOW_ACT" msprop:Generator_ColumnPropNameInTable="FLOW_ACTColumn" msprop:Generator_UserColumnName="FLOW_ACT" type="xs:string" minOccurs="0" />
+              <xs:element name="FLOW_SP" msprop:Generator_ColumnVarNameInTable="columnFLOW_SP" msprop:Generator_ColumnPropNameInRow="FLOW_SP" msprop:Generator_ColumnPropNameInTable="FLOW_SPColumn" msprop:Generator_UserColumnName="FLOW_SP" type="xs:string" minOccurs="0" />
+              <xs:element name="FLOW_TOT" msprop:Generator_ColumnVarNameInTable="columnFLOW_TOT" msprop:Generator_ColumnPropNameInRow="FLOW_TOT" msprop:Generator_ColumnPropNameInTable="FLOW_TOTColumn" msprop:Generator_UserColumnName="FLOW_TOT" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrpage" msprop:Generator_ColumnVarNameInTable="columncustombmrpage" msprop:Generator_ColumnPropNameInRow="custombmrpage" msprop:Generator_ColumnPropNameInTable="custombmrpageColumn" msprop:Generator_UserColumnName="custombmrpage" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrsection" msprop:Generator_ColumnVarNameInTable="columncustombmrsection" msprop:Generator_ColumnPropNameInRow="custombmrsection" msprop:Generator_ColumnPropNameInTable="custombmrsectionColumn" msprop:Generator_UserColumnName="custombmrsection" type="xs:string" minOccurs="0" />
+              <xs:element name="batchno" msprop:Generator_ColumnVarNameInTable="columnbatchno" msprop:Generator_ColumnPropNameInRow="batchno" msprop:Generator_ColumnPropNameInTable="batchnoColumn" msprop:Generator_UserColumnName="batchno" type="xs:string" minOccurs="0" />
+              <xs:element name="customproductname" msprop:Generator_ColumnVarNameInTable="columncustomproductname" msprop:Generator_ColumnPropNameInRow="customproductname" msprop:Generator_ColumnPropNameInTable="customproductnameColumn" msprop:Generator_UserColumnName="customproductname" type="xs:string" minOccurs="0" />
+              <xs:element name="MassTempSet" msprop:Generator_ColumnVarNameInTable="columnMassTempSet" msprop:Generator_ColumnPropNameInRow="MassTempSet" msprop:Generator_ColumnPropNameInTable="MassTempSetColumn" msprop:Generator_UserColumnName="MassTempSet" type="xs:string" minOccurs="0" />
+              <xs:element name="MassTempAct" msprop:Generator_ColumnVarNameInTable="columnMassTempAct" msprop:Generator_ColumnPropNameInRow="MassTempAct" msprop:Generator_ColumnPropNameInTable="MassTempActColumn" msprop:Generator_UserColumnName="MassTempAct" type="xs:string" minOccurs="0" />
+              <xs:element name="ReactorTempAct" msprop:Generator_ColumnVarNameInTable="columnReactorTempAct" msprop:Generator_ColumnPropNameInRow="ReactorTempAct" msprop:Generator_ColumnPropNameInTable="ReactorTempActColumn" msprop:Generator_UserColumnName="ReactorTempAct" type="xs:string" minOccurs="0" />
+              <xs:element name="ColumnBottom" msprop:Generator_ColumnVarNameInTable="columnColumnBottom" msprop:Generator_ColumnPropNameInRow="ColumnBottom" msprop:Generator_ColumnPropNameInTable="ColumnBottomColumn" msprop:Generator_UserColumnName="ColumnBottom" type="xs:string" minOccurs="0" />
+              <xs:element name="ColumnTop" msprop:Generator_ColumnVarNameInTable="columnColumnTop" msprop:Generator_ColumnPropNameInRow="ColumnTop" msprop:Generator_ColumnPropNameInTable="ColumnTopColumn" msprop:Generator_UserColumnName="ColumnTop" type="xs:string" minOccurs="0" />
+              <xs:element name="VapourLine" msprop:Generator_ColumnVarNameInTable="columnVapourLine" msprop:Generator_ColumnPropNameInRow="VapourLine" msprop:Generator_ColumnPropNameInTable="VapourLineColumn" msprop:Generator_UserColumnName="VapourLine" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_MM_70" msprop:Generator_TableClassName="v_MM_70DataTable" msprop:Generator_TableVarName="tablev_MM_70" msprop:Generator_RowChangedName="v_MM_70RowChanged" msprop:Generator_TablePropName="v_MM_70" msprop:Generator_RowDeletingName="v_MM_70RowDeleting" msprop:Generator_RowChangingName="v_MM_70RowChanging" msprop:Generator_RowEvHandlerName="v_MM_70RowChangeEventHandler" msprop:Generator_RowDeletedName="v_MM_70RowDeleted" msprop:Generator_RowClassName="v_MM_70Row" msprop:Generator_UserTableName="v_MM_70" msprop:Generator_RowEvArgName="v_MM_70RowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RPMAct_70" msprop:Generator_ColumnVarNameInTable="columnRPMAct_70" msprop:Generator_ColumnPropNameInRow="RPMAct_70" msprop:Generator_ColumnPropNameInTable="RPMAct_70Column" msprop:Generator_UserColumnName="RPMAct_70" type="xs:double" minOccurs="0" />
+              <xs:element name="RPMSET_70" msprop:Generator_ColumnVarNameInTable="columnRPMSET_70" msprop:Generator_ColumnPropNameInRow="RPMSET_70" msprop:Generator_ColumnPropNameInTable="RPMSET_70Column" msprop:Generator_UserColumnName="RPMSET_70" type="xs:double" minOccurs="0" />
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="RPMAct_78" msprop:Generator_ColumnVarNameInTable="columnRPMAct_78" msprop:Generator_ColumnPropNameInRow="RPMAct_78" msprop:Generator_ColumnPropNameInTable="RPMAct_78Column" msprop:Generator_UserColumnName="RPMAct_78" type="xs:string" minOccurs="0" />
+              <xs:element name="RPMSET_78" msprop:Generator_ColumnVarNameInTable="columnRPMSET_78" msprop:Generator_ColumnPropNameInRow="RPMSET_78" msprop:Generator_ColumnPropNameInTable="RPMSET_78Column" msprop:Generator_UserColumnName="RPMSET_78" type="xs:string" minOccurs="0" />
+              <xs:element name="RPMAct_82" msprop:Generator_ColumnVarNameInTable="columnRPMAct_82" msprop:Generator_ColumnPropNameInRow="RPMAct_82" msprop:Generator_ColumnPropNameInTable="RPMAct_82Column" msprop:Generator_UserColumnName="RPMAct_82" type="xs:string" minOccurs="0" />
+              <xs:element name="RPMSET_82" msprop:Generator_ColumnVarNameInTable="columnRPMSET_82" msprop:Generator_ColumnPropNameInRow="RPMSET_82" msprop:Generator_ColumnPropNameInTable="RPMSET_82Column" msprop:Generator_UserColumnName="RPMSET_82" type="xs:string" minOccurs="0" />
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="customproductname" msprop:Generator_ColumnVarNameInTable="columncustomproductname" msprop:Generator_ColumnPropNameInRow="customproductname" msprop:Generator_ColumnPropNameInTable="customproductnameColumn" msprop:Generator_UserColumnName="customproductname" type="xs:string" minOccurs="0" />
+              <xs:element name="customrpma" msprop:Generator_ColumnVarNameInTable="columncustomrpma" msprop:Generator_ColumnPropNameInRow="customrpma" msprop:Generator_ColumnPropNameInTable="customrpmaColumn" msprop:Generator_UserColumnName="customrpma" type="xs:string" minOccurs="0" />
+              <xs:element name="stepnum" msprop:Generator_ColumnVarNameInTable="columnstepnum" msprop:Generator_ColumnPropNameInRow="stepnum" msprop:Generator_ColumnPropNameInTable="stepnumColumn" msprop:Generator_UserColumnName="stepnum" type="xs:string" minOccurs="0" />
+              <xs:element name="batchno" msprop:Generator_ColumnVarNameInTable="columnbatchno" msprop:Generator_ColumnPropNameInRow="batchno" msprop:Generator_ColumnPropNameInTable="batchnoColumn" msprop:Generator_UserColumnName="batchno" type="xs:string" minOccurs="0" />
+              <xs:element name="batchStartTime" msprop:Generator_ColumnVarNameInTable="columnbatchStartTime" msprop:Generator_ColumnPropNameInRow="batchStartTime" msprop:Generator_ColumnPropNameInTable="batchStartTimeColumn" msprop:Generator_UserColumnName="batchStartTime" type="xs:string" minOccurs="0" />
+              <xs:element name="batchEndTime" msprop:Generator_ColumnVarNameInTable="columnbatchEndTime" msprop:Generator_ColumnPropNameInRow="batchEndTime" msprop:Generator_ColumnPropNameInTable="batchEndTimeColumn" msprop:Generator_UserColumnName="batchEndTime" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_FPOGB192_DATABASE" msprop:Generator_TableClassName="v_FPOGB192_DATABASEDataTable" msprop:Generator_TableVarName="tablev_FPOGB192_DATABASE" msprop:Generator_RowChangedName="v_FPOGB192_DATABASERowChanged" msprop:Generator_TablePropName="v_FPOGB192_DATABASE" msprop:Generator_RowDeletingName="v_FPOGB192_DATABASERowDeleting" msprop:Generator_RowChangingName="v_FPOGB192_DATABASERowChanging" msprop:Generator_RowEvHandlerName="v_FPOGB192_DATABASERowChangeEventHandler" msprop:Generator_RowDeletedName="v_FPOGB192_DATABASERowDeleted" msprop:Generator_RowClassName="v_FPOGB192_DATABASERow" msprop:Generator_UserTableName="v_FPOGB192_DATABASE" msprop:Generator_RowEvArgName="v_FPOGB192_DATABASERowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RPMACT" msprop:Generator_ColumnVarNameInTable="columnRPMACT" msprop:Generator_ColumnPropNameInRow="RPMACT" msprop:Generator_ColumnPropNameInTable="RPMACTColumn" msprop:Generator_UserColumnName="RPMACT" type="xs:double" minOccurs="0" />
+              <xs:element name="RPM_HIGH_SET" msprop:Generator_ColumnVarNameInTable="columnRPM_HIGH_SET" msprop:Generator_ColumnPropNameInRow="RPM_HIGH_SET" msprop:Generator_ColumnPropNameInTable="RPM_HIGH_SETColumn" msprop:Generator_UserColumnName="RPM_HIGH_SET" type="xs:double" minOccurs="0" />
+              <xs:element name="RPM_LOW_SET" msprop:Generator_ColumnVarNameInTable="columnRPM_LOW_SET" msprop:Generator_ColumnPropNameInRow="RPM_LOW_SET" msprop:Generator_ColumnPropNameInTable="RPM_LOW_SETColumn" msprop:Generator_UserColumnName="RPM_LOW_SET" type="xs:double" minOccurs="0" />
+              <xs:element name="RPM_SET" msprop:Generator_ColumnVarNameInTable="columnRPM_SET" msprop:Generator_ColumnPropNameInRow="RPM_SET" msprop:Generator_ColumnPropNameInTable="RPM_SETColumn" msprop:Generator_UserColumnName="RPM_SET" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventMessage" msprop:Generator_ColumnVarNameInTable="columnEventMessage" msprop:Generator_ColumnPropNameInRow="EventMessage" msprop:Generator_ColumnPropNameInTable="EventMessageColumn" msprop:Generator_UserColumnName="EventMessage" type="xs:string" minOccurs="0" />
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="customrpma" msprop:Generator_ColumnVarNameInTable="columncustomrpma" msprop:Generator_ColumnPropNameInRow="customrpma" msprop:Generator_ColumnPropNameInTable="customrpmaColumn" msprop:Generator_UserColumnName="customrpma" type="xs:string" minOccurs="0" />
+              <xs:element name="tacceptance" msprop:Generator_ColumnVarNameInTable="columntacceptance" msprop:Generator_ColumnPropNameInRow="tacceptance" msprop:Generator_ColumnPropNameInTable="tacceptanceColumn" msprop:Generator_UserColumnName="tacceptance" type="xs:string" minOccurs="0" />
+              <xs:element name="customva" msprop:Generator_ColumnVarNameInTable="columncustomva" msprop:Generator_ColumnPropNameInRow="customva" msprop:Generator_ColumnPropNameInTable="customvaColumn" msprop:Generator_UserColumnName="customva" type="xs:string" minOccurs="0" />
+              <xs:element name="stepnum" msprop:Generator_ColumnVarNameInTable="columnstepnum" msprop:Generator_ColumnPropNameInRow="stepnum" msprop:Generator_ColumnPropNameInTable="stepnumColumn" msprop:Generator_UserColumnName="stepnum" type="xs:string" minOccurs="0" />
+              <xs:element name="customta" msprop:Generator_ColumnVarNameInTable="columncustomta" msprop:Generator_ColumnPropNameInRow="customta" msprop:Generator_ColumnPropNameInTable="customtaColumn" msprop:Generator_UserColumnName="customta" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrpage" msprop:Generator_ColumnVarNameInTable="columncustombmrpage" msprop:Generator_ColumnPropNameInRow="custombmrpage" msprop:Generator_ColumnPropNameInTable="custombmrpageColumn" msprop:Generator_UserColumnName="custombmrpage" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrsection" msprop:Generator_ColumnVarNameInTable="columncustombmrsection" msprop:Generator_ColumnPropNameInRow="custombmrsection" msprop:Generator_ColumnPropNameInTable="custombmrsectionColumn" msprop:Generator_UserColumnName="custombmrsection" type="xs:string" minOccurs="0" />
+              <xs:element name="customproductname" msprop:Generator_ColumnVarNameInTable="columncustomproductname" msprop:Generator_ColumnPropNameInRow="customproductname" msprop:Generator_ColumnPropNameInTable="customproductnameColumn" msprop:Generator_UserColumnName="customproductname" type="xs:string" minOccurs="0" />
+              <xs:element name="batchno" msprop:Generator_ColumnVarNameInTable="columnbatchno" msprop:Generator_ColumnPropNameInRow="batchno" msprop:Generator_ColumnPropNameInTable="batchnoColumn" msprop:Generator_UserColumnName="batchno" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="v_API4_ANFD371" msprop:Generator_TableClassName="v_API4_ANFD371DataTable" msprop:Generator_TableVarName="tablev_API4_ANFD371" msprop:Generator_TablePropName="v_API4_ANFD371" msprop:Generator_RowDeletingName="v_API4_ANFD371RowDeleting" msprop:Generator_RowChangingName="v_API4_ANFD371RowChanging" msprop:Generator_RowEvHandlerName="v_API4_ANFD371RowChangeEventHandler" msprop:Generator_RowDeletedName="v_API4_ANFD371RowDeleted" msprop:Generator_UserTableName="v_API4_ANFD371" msprop:Generator_RowChangedName="v_API4_ANFD371RowChanged" msprop:Generator_RowEvArgName="v_API4_ANFD371RowChangeEvent" msprop:Generator_RowClassName="v_API4_ANFD371Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DateAndTime" msprop:Generator_ColumnVarNameInTable="columnDateAndTime" msprop:Generator_ColumnPropNameInRow="DateAndTime" msprop:Generator_ColumnPropNameInTable="DateAndTimeColumn" msprop:Generator_UserColumnName="DateAndTime" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="RPMAct" msprop:Generator_ColumnVarNameInTable="columnRPMAct" msprop:Generator_ColumnPropNameInRow="RPMAct" msprop:Generator_ColumnPropNameInTable="RPMActColumn" msprop:Generator_UserColumnName="RPMAct" type="xs:double" minOccurs="0" />
+              <xs:element name="RPMSET" msprop:Generator_ColumnVarNameInTable="columnRPMSET" msprop:Generator_ColumnPropNameInRow="RPMSET" msprop:Generator_ColumnPropNameInTable="RPMSETColumn" msprop:Generator_UserColumnName="RPMSET" type="xs:double" minOccurs="0" />
+              <xs:element name="ANFD_371_BATCH_START" msprop:Generator_ColumnVarNameInTable="columnANFD_371_BATCH_START" msprop:Generator_ColumnPropNameInRow="ANFD_371_BATCH_START" msprop:Generator_ColumnPropNameInTable="ANFD_371_BATCH_STARTColumn" msprop:Generator_UserColumnName="ANFD_371_BATCH_START" type="xs:double" minOccurs="0" />
+              <xs:element name="MassTempAct" msprop:Generator_ColumnVarNameInTable="columnMassTempAct" msprop:Generator_ColumnPropNameInRow="MassTempAct" msprop:Generator_ColumnPropNameInTable="MassTempActColumn" msprop:Generator_UserColumnName="MassTempAct" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureAct" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureAct" msprop:Generator_ColumnPropNameInRow="VacuumPressureAct" msprop:Generator_ColumnPropNameInTable="VacuumPressureActColumn" msprop:Generator_UserColumnName="VacuumPressureAct" type="xs:double" minOccurs="0" />
+              <xs:element name="VacuumPressureSet" msprop:Generator_ColumnVarNameInTable="columnVacuumPressureSet" msprop:Generator_ColumnPropNameInRow="VacuumPressureSet" msprop:Generator_ColumnPropNameInTable="VacuumPressureSetColumn" msprop:Generator_UserColumnName="VacuumPressureSet" type="xs:double" minOccurs="0" />
+              <xs:element name="tempinlet" msprop:Generator_ColumnVarNameInTable="columntempinlet" msprop:Generator_ColumnPropNameInRow="tempinlet" msprop:Generator_ColumnPropNameInTable="tempinletColumn" msprop:Generator_UserColumnName="tempinlet" type="xs:double" minOccurs="0" />
+              <xs:element name="tempoutlet" msprop:Generator_ColumnVarNameInTable="columntempoutlet" msprop:Generator_ColumnPropNameInRow="tempoutlet" msprop:Generator_ColumnPropNameInTable="tempoutletColumn" msprop:Generator_UserColumnName="tempoutlet" type="xs:double" minOccurs="0" />
+              <xs:element name="TempLowerLim" msprop:Generator_ColumnVarNameInTable="columnTempLowerLim" msprop:Generator_ColumnPropNameInRow="TempLowerLim" msprop:Generator_ColumnPropNameInTable="TempLowerLimColumn" msprop:Generator_UserColumnName="TempLowerLim" type="xs:double" minOccurs="0" />
+              <xs:element name="TempUpperLim" msprop:Generator_ColumnVarNameInTable="columnTempUpperLim" msprop:Generator_ColumnPropNameInRow="TempUpperLim" msprop:Generator_ColumnPropNameInTable="TempUpperLimColumn" msprop:Generator_UserColumnName="TempUpperLim" type="xs:double" minOccurs="0" />
+              <xs:element name="BED_TEMP" msprop:Generator_ColumnVarNameInTable="columnBED_TEMP" msprop:Generator_ColumnPropNameInRow="BED_TEMP" msprop:Generator_ColumnPropNameInTable="BED_TEMPColumn" msprop:Generator_UserColumnName="BED_TEMP" type="xs:double" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EventMessage" msprop:Generator_ColumnVarNameInTable="columnEventMessage" msprop:Generator_ColumnPropNameInRow="EventMessage" msprop:Generator_ColumnPropNameInTable="EventMessageColumn" msprop:Generator_UserColumnName="EventMessage" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="EquipmentNo" msprop:Generator_ColumnVarNameInTable="columnEquipmentNo" msprop:Generator_ColumnPropNameInRow="EquipmentNo" msprop:Generator_ColumnPropNameInTable="EquipmentNoColumn" msprop:Generator_UserColumnName="EquipmentNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BatchNo" msprop:Generator_ColumnVarNameInTable="columnBatchNo" msprop:Generator_ColumnPropNameInRow="BatchNo" msprop:Generator_ColumnPropNameInTable="BatchNoColumn" msprop:Generator_UserColumnName="BatchNo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="82" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrintBy" msprop:Generator_ColumnVarNameInTable="columnPrintBy" msprop:Generator_ColumnPropNameInRow="PrintBy" msprop:Generator_ColumnPropNameInTable="PrintByColumn" msprop:Generator_UserColumnName="PrintBy" type="xs:string" minOccurs="0" />
+              <xs:element name="TimeInterval" msprop:Generator_ColumnVarNameInTable="columnTimeInterval" msprop:Generator_ColumnPropNameInRow="TimeInterval" msprop:Generator_ColumnPropNameInTable="TimeIntervalColumn" msprop:Generator_UserColumnName="TimeInterval" type="xs:string" minOccurs="0" />
+              <xs:element name="customrpma" msprop:Generator_ColumnVarNameInTable="columncustomrpma" msprop:Generator_ColumnPropNameInRow="customrpma" msprop:Generator_ColumnPropNameInTable="customrpmaColumn" msprop:Generator_UserColumnName="customrpma" type="xs:string" minOccurs="0" />
+              <xs:element name="tacceptance" msprop:Generator_ColumnVarNameInTable="columntacceptance" msprop:Generator_ColumnPropNameInRow="tacceptance" msprop:Generator_ColumnPropNameInTable="tacceptanceColumn" msprop:Generator_UserColumnName="tacceptance" type="xs:string" minOccurs="0" />
+              <xs:element name="customva" msprop:Generator_ColumnVarNameInTable="columncustomva" msprop:Generator_ColumnPropNameInRow="customva" msprop:Generator_ColumnPropNameInTable="customvaColumn" msprop:Generator_UserColumnName="customva" type="xs:string" minOccurs="0" />
+              <xs:element name="stepnum" msprop:Generator_ColumnVarNameInTable="columnstepnum" msprop:Generator_ColumnPropNameInRow="stepnum" msprop:Generator_ColumnPropNameInTable="stepnumColumn" msprop:Generator_UserColumnName="stepnum" type="xs:string" minOccurs="0" />
+              <xs:element name="customta" msprop:Generator_ColumnVarNameInTable="columncustomta" msprop:Generator_ColumnPropNameInRow="customta" msprop:Generator_ColumnPropNameInTable="customtaColumn" msprop:Generator_UserColumnName="customta" type="xs:string" minOccurs="0" />
+              <xs:element name="batchno" msprop:Generator_ColumnVarNameInTable="columnbatchno" msprop:Generator_ColumnPropNameInRow="batchno" msprop:Generator_ColumnPropNameInTable="batchnoColumn" msprop:Generator_UserColumnName="batchno" type="xs:string" minOccurs="0" />
+              <xs:element name="customproductname" msprop:Generator_ColumnVarNameInTable="columncustomproductname" msprop:Generator_ColumnPropNameInRow="customproductname" msprop:Generator_ColumnPropNameInTable="customproductnameColumn" msprop:Generator_UserColumnName="customproductname" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrsection" msprop:Generator_ColumnVarNameInTable="columncustombmrsection" msprop:Generator_ColumnPropNameInRow="custombmrsection" msprop:Generator_ColumnPropNameInTable="custombmrsectionColumn" msprop:Generator_UserColumnName="custombmrsection" type="xs:string" minOccurs="0" />
+              <xs:element name="custombmrpage" msprop:Generator_ColumnVarNameInTable="columncustombmrpage" msprop:Generator_ColumnPropNameInRow="custombmrpage" msprop:Generator_ColumnPropNameInTable="custombmrpageColumn" msprop:Generator_UserColumnName="custombmrpage" type="xs:string" minOccurs="0" />
+              <xs:element name="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnDataColumn1" msprop:Generator_ColumnPropNameInRow="DataColumn1" msprop:Generator_ColumnPropNameInTable="DataColumn1Column" msprop:Generator_UserColumnName="DataColumn1" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
